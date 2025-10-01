@@ -40,6 +40,10 @@
         "jestConfig": "packages/integrations/jest.config.ts"
       }
     },
+    "test-exports": {
+      "command": "node packages/integrations/tests/test-exports.js",
+      "dependsOn": ["build"]
+    },
     "integration-v1": {
       "command": "start-server-and-test 'bin/serve.sh https://console.redhat.com/api/integrations/v1.0/openapi.json 3001' http://localhost:3001/api/integrations/v1.0/endpoints/ 'nx run --verbose @redhat-cloud-services/integrations-client:jest-v1'"
     },

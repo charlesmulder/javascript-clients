@@ -40,6 +40,10 @@
         "jestConfig": "packages/insights/jest.config.ts"
       }
     },
+    "test-exports": {
+      "command": "node packages/insights/tests/test-exports.js",
+      "dependsOn": ["build"]
+    },
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {

@@ -39,6 +39,10 @@
         "jestConfig": "packages/topological-inventory/jest.config.ts"
       }
     },
+    "test-exports": {
+      "command": "node packages/topological-inventory/tests/test-exports.js",
+      "dependsOn": ["build"]
+    },
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {

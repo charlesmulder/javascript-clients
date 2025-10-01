@@ -39,6 +39,10 @@
         "jestConfig": "packages/compliance/jest.config.ts"
       }
     },
+    "test-exports": {
+      "command": "node packages/compliance/tests/test-exports.js",
+      "dependsOn": ["build"]
+    },
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {

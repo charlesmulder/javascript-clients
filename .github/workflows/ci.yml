@@ -39,6 +39,23 @@ jobs:
           fetch-depth: 0
       - uses: './.github/actions/setup-environment'
       - uses: './.github/actions/test-unit'
+  test-exports:
+    runs-on: ubuntu-24.04
+    needs: [install, build]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: './.github/actions/setup-environment'
+      - uses: nrwl/nx-set-shas@v4
+      - name: Install deps
+        run: npm ci
+      - name: Build affected
+        env:
+          NX_SKIP_NX_CACHE: true
+        run: npx nx affected -t build --exclude=@redhat-cloud-services/CLIENTNAME-client
+      - name: Test exports
+        run: npx nx affected -t test-exports --exclude=@redhat-cloud-services/CLIENTNAME-client
   integration:
     runs-on: ubuntu-24.04
     needs: [install]
@@ -65,7 +82,7 @@ jobs:
         run: npx nx affected -t build --exclude=@redhat-cloud-services/CLIENTNAME-client
   release:
     runs-on: ubuntu-24.04
-    needs: [install, lint, test, build]
+    needs: [install, lint, test, test-exports, build]
     if: github.event_name != 'pull_request'
     steps:
       - uses: actions/checkout@v4

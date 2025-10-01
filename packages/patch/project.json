@@ -39,6 +39,10 @@
         "jestConfig": "packages/patch/jest.config.ts"
       }
     },
+    "test-exports": {
+      "command": "node packages/patch/tests/test-exports.js",
+      "dependsOn": ["build"]
+    },
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {

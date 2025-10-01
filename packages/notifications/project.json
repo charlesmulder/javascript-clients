@@ -40,6 +40,10 @@
         "jestConfig": "packages/notifications/jest.config.ts"
       }
     },
+    "test-exports": {
+      "command": "node packages/notifications/tests/test-exports.js",
+      "dependsOn": ["build"]
+    },
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {

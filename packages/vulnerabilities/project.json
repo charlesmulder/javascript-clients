@@ -46,6 +46,10 @@
         "jestConfig": "packages/vulnerabilities/jest.config.ts"
       }
     },
+    "test-exports": {
+      "command": "node packages/vulnerabilities/tests/test-exports.js",
+      "dependsOn": ["build"]
+    },
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
