@@ -26,8 +26,12 @@
   },
   "typesVersions": {
     "*": {
-      "api": ["./dist/api.d.ts"],
-      "*": ["./dist/*/index.d.ts"]
+      "api": [
+        "./dist/api.d.ts"
+      ],
+      "*": [
+        "./dist/*/index.d.ts"
+      ]
     }
   },
   "publishConfig": {

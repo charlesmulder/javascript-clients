@@ -14,5 +14,5 @@ runExportTests('@redhat-cloud-services/insights-client', [
 
   // Invalid paths should fail
   { description: 'Invalid path should fail', importPath: '@redhat-cloud-services/insights-client/invalid', shouldFail: true },
-  { description: 'Another invalid path should fail', importPath: '@redhat-cloud-services/insights-client/nonexistent', shouldFail: true }
+  { description: 'Another invalid path should fail', importPath: '@redhat-cloud-services/insights-client/nonexistent', shouldFail: true },
 ]);

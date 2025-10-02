@@ -15,5 +15,5 @@ runExportTests('@redhat-cloud-services/rbac-client', [
 
   // Invalid paths should fail
   { description: 'Invalid path should fail', importPath: '@redhat-cloud-services/rbac-client/invalid', shouldFail: true },
-  { description: 'Another invalid path should fail', importPath: '@redhat-cloud-services/rbac-client/nonexistent', shouldFail: true }
+  { description: 'Another invalid path should fail', importPath: '@redhat-cloud-services/rbac-client/nonexistent', shouldFail: true },
 ]);

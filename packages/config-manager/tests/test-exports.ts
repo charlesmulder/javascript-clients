@@ -14,5 +14,5 @@ runExportTests('@redhat-cloud-services/config-manager-client', [
 
   // Invalid paths should fail
   { description: 'Invalid path should fail', importPath: '@redhat-cloud-services/config-manager-client/invalid', shouldFail: true },
-  { description: 'Another invalid path should fail', importPath: '@redhat-cloud-services/config-manager-client/nonexistent', shouldFail: true }
+  { description: 'Another invalid path should fail', importPath: '@redhat-cloud-services/config-manager-client/nonexistent', shouldFail: true },
 ]);

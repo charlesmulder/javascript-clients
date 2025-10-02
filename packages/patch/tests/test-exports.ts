@@ -14,5 +14,5 @@ runExportTests('@redhat-cloud-services/patch-client', [
 
   // Invalid paths should fail
   { description: 'Invalid path should fail', importPath: '@redhat-cloud-services/patch-client/invalid', shouldFail: true },
-  { description: 'Another invalid path should fail', importPath: '@redhat-cloud-services/patch-client/nonexistent', shouldFail: true }
+  { description: 'Another invalid path should fail', importPath: '@redhat-cloud-services/patch-client/nonexistent', shouldFail: true },
 ]);

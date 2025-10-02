@@ -48,15 +48,33 @@
   },
   "typesVersions": {
     "*": {
-      "utils": ["./dist/utils.d.ts"],
-      "common": ["./dist/common.d.ts"],
-      "base": ["./dist/base.d.ts"],
-      "configuration": ["./dist/configuration.d.ts"],
-      "dist/utils": ["./dist/utils.d.ts"],
-      "dist/common": ["./dist/common.d.ts"],
-      "dist/base": ["./dist/base.d.ts"],
-      "dist/configuration": ["./dist/configuration.d.ts"],
-      "*": ["./dist/*/index.d.ts"]
+      "utils": [
+        "./dist/utils.d.ts"
+      ],
+      "common": [
+        "./dist/common.d.ts"
+      ],
+      "base": [
+        "./dist/base.d.ts"
+      ],
+      "configuration": [
+        "./dist/configuration.d.ts"
+      ],
+      "dist/utils": [
+        "./dist/utils.d.ts"
+      ],
+      "dist/common": [
+        "./dist/common.d.ts"
+      ],
+      "dist/base": [
+        "./dist/base.d.ts"
+      ],
+      "dist/configuration": [
+        "./dist/configuration.d.ts"
+      ],
+      "*": [
+        "./dist/*/index.d.ts"
+      ]
     }
   },
   "publishConfig": {
