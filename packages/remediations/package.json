@@ -21,6 +21,12 @@
       "default": "./dist/*/index.js"
     }
   },
+  "typesVersions": {
+    "*": {
+      "api": ["./dist/api.d.ts"],
+      "*": ["./dist/*/index.d.ts"]
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RedHatInsights/javascript-clients.git"

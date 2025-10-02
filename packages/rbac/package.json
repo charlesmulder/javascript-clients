@@ -1,6 +1,6 @@
 {
   "name": "@redhat-cloud-services/rbac-client",
-  "version": "4.2.2",
+  "version": "4.2.9-local",
   "description": "TypeScript client for Red Hat Insights RBAC service",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -13,9 +13,20 @@
       "types": "./dist/api.d.ts",
       "default": "./dist/api.js"
     },
+    "./types": {
+      "types": "./dist/types/index.d.ts",
+      "default": "./dist/types/index.js"
+    },
     "./*": {
       "types": "./dist/*/index.d.ts",
       "default": "./dist/*/index.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "api": ["./dist/api.d.ts"],
+      "types": ["./dist/types/index.d.ts"],
+      "*": ["./dist/*/index.d.ts"]
     }
   },
   "publishConfig": {

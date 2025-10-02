@@ -18,6 +18,12 @@
       "default": "./dist/*/index.js"
     }
   },
+  "typesVersions": {
+    "*": {
+      "api": ["./dist/api.d.ts"],
+      "*": ["./dist/*/index.d.ts"]
+    }
+  },
   "publishConfig": {
     "access": "public"
   },
