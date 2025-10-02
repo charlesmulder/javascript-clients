@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { runExportTests } from '../../build-utils/src/export-test-utils.mjs';
+import { runExportTests } from '../../build-utils/dist/src/export-test-utils.mjs';
 
 runExportTests('@redhat-cloud-services/quickstarts-client', [
   // Main exports
