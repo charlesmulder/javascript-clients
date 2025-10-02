@@ -41,7 +41,7 @@
       }
     },
     "test-exports": {
-      "command": "node packages/notifications/tests/test-exports.js",
+      "command": "node packages/notifications/tests/test-exports.cjs && npx deno run --allow-read --sloppy-imports packages/notifications/tests/test-exports.mjs && npx tsx packages/notifications/tests/test-exports.ts",
       "dependsOn": ["build"]
     },
     "version": {

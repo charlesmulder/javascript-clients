@@ -27,7 +27,7 @@ npm adduser --registry http://localhost:4873
 # build package
 npx nx build @redhat-cloud-services/rbac-client 
 # publish package 
-NPM_CONFIG_REGISTRY=http://localhost:4873 npm publish --dry-run --tag local ./packages/rbac
+NPM_CONFIG_REGISTRY=http://localhost:4873 npm publish --tag local ./packages/rbac
 ```
 
 Import the package in a test repo.

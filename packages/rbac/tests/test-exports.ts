@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { runExportTests } = require('../../../utils/export-test-utils');
+import { runExportTests } from '../../../utils/export-test-utils';
 
 runExportTests('@redhat-cloud-services/rbac-client', [
   // Main exports

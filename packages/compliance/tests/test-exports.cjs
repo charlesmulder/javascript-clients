@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { runExportTests } = require('../../../utils/export-test-utils');
+const { runExportTests } = require('../../../utils/export-test-utils.cjs');
 
 runExportTests('@redhat-cloud-services/compliance-client', [
   // Main exports

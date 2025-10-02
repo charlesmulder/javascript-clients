@@ -10,14 +10,17 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
+      "import": "./dist/esm/index.js",
       "default": "./dist/index.js"
     },
     "./api": {
       "types": "./dist/api.d.ts",
+      "import": "./dist/esm/api.js",
       "default": "./dist/api.js"
     },
     "./*": {
       "types": "./dist/*/index.d.ts",
+      "import": "./dist/esm/*/index.js",
       "default": "./dist/*/index.js"
     }
   },

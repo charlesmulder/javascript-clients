@@ -40,7 +40,7 @@
       }
     },
     "test-exports": {
-      "command": "node packages/entitlements/tests/test-exports.js",
+      "command": "node packages/entitlements/tests/test-exports.cjs && npx deno run --allow-read --sloppy-imports packages/entitlements/tests/test-exports.mjs && npx tsx packages/entitlements/tests/test-exports.ts",
       "dependsOn": ["build"]
     },
     "version": {

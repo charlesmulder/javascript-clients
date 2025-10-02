@@ -41,7 +41,7 @@
       }
     },
     "test-exports": {
-      "command": "node packages/integrations/tests/test-exports.js",
+      "command": "node packages/integrations/tests/test-exports.cjs && npx deno run --allow-read --sloppy-imports packages/integrations/tests/test-exports.mjs && npx tsx packages/integrations/tests/test-exports.ts",
       "dependsOn": ["build"]
     },
     "integration-v1": {

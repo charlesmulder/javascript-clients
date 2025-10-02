@@ -10,6 +10,7 @@
       "noFallthroughCasesInSwitch": true,
       "allowSyntheticDefaultImports": true,
   },
+  "exclude": ["jest.config.ts", "dist", "tests/test-exports.*"],
   "files": [],
   "references": [
       {

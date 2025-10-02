@@ -41,7 +41,7 @@
       }
     },
     "test-exports": {
-      "command": "node packages/rbac/tests/test-exports.js",
+      "command": "node packages/rbac/tests/test-exports.cjs && npx deno run --allow-read --sloppy-imports packages/rbac/tests/test-exports.mjs && npx tsx packages/rbac/tests/test-exports.ts",
       "dependsOn": ["build"]
     },
     "integration-v2": {

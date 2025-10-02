@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "url": "node:url",
+    "fs": "node:fs",
+    "path": "node:path",
+    "util": "node:util"
+  }
+}

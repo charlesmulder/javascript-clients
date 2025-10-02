@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { runExportTests } = require('../../../utils/export-test-utils');
+import { runExportTests } from '../../../utils/export-test-utils.mjs';
 
 runExportTests('@redhat-cloud-services/vulnerabilities-client', [
   // Main exports
