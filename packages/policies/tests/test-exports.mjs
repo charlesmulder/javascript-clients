@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { runExportTests } from '../../../utils/export-test-utils.mjs';
+import { runExportTests } from '../../build-utils/src/export-test-utils.mjs';
 
 runExportTests('@redhat-cloud-services/policies-client', [
   // Main exports

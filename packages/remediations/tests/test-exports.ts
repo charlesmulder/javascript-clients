@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { runExportTests } from '../../../utils/export-test-utils';
+import { runExportTests } from '@redhat-cloud-services/build-utils';
 
 runExportTests('@redhat-cloud-services/remediations-client', [
   // Main exports

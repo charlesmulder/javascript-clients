@@ -12,7 +12,7 @@ interface TestCase {
   shouldFail?: boolean;
 }
 
-async function testImport(description: string, importPath: string, expectedType: string = 'object'): Promise<boolean> {
+async function testImport(description: string, importPath: string, expectedType = 'object'): Promise<boolean> {
   try {
     const module = await import(importPath);
     const actualType = typeof module;
@@ -24,8 +24,8 @@ async function testImport(description: string, importPath: string, expectedType:
       console.log(`FAIL ${description}: ${importPath} - Expected ${expectedType}, got ${actualType}`);
       return false;
     }
-  } catch (error) {
-    console.log(`FAIL ${description}: ${importPath} - ${(error as Error).message}`);
+  } catch (err) {
+    console.log(`FAIL ${description}: ${importPath} - ${(err as Error).message}`);
     return false;
   }
 }
@@ -35,7 +35,7 @@ async function testImportShouldFail(description: string, importPath: string): Pr
     await import(importPath);
     console.log(`FAIL ${description}: ${importPath} - Should have failed but didn't`);
     return false;
-  } catch (error) {
+  } catch {
     console.log(`PASS ${description}: ${importPath} - Correctly failed`);
     return true;
   }
@@ -67,7 +67,4 @@ export async function runExportTests(packageName: string, tests: TestCase[]): Pr
   }
 }
 
-export {
-  testImport,
-  testImportShouldFail
-};
+export { testImport, testImportShouldFail };

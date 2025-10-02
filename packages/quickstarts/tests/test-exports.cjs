@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { runExportTests } = require('../../../utils/export-test-utils.cjs');
+const { runExportTests } = require('../../build-utils/src/export-test-utils.cjs');
 
 runExportTests('@redhat-cloud-services/quickstarts-client', [
   // Main exports
