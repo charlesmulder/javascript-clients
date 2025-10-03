@@ -30,11 +30,14 @@ npx nx build @redhat-cloud-services/rbac-client
 NPM_CONFIG_REGISTRY=http://localhost:4873 npm publish --tag local ./packages/rbac
 ```
 
-Import the package in a test repo.
+Testing from package consumer perspective. 
 
 ```sh
+# install package from local registry
+NPM_CONFIG_REGISTRY=http://localhost:4873 npm install @redhat-cloud-services/rbac-client@4.2.12-local
+# build
+NPM_CONFIG_REGISTRY=http://localhost:4873 npx tsc
 ```
-
 
 #### CI fails due to mismatch between package.json and package-lock.json
 
