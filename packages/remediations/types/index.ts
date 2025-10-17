@@ -878,6 +878,12 @@ export interface PlaybookRunSystems {
      * @memberof PlaybookRunSystems
      */
     'playbook_run_executor_id': string;
+    /**
+     * Executor type for this system (e.g., \'direct\' or \'satellite\')
+     * @type {string}
+     * @memberof PlaybookRunSystems
+     */
+    'executor_type'?: string;
 }
 
 

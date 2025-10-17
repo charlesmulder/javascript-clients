@@ -44,11 +44,12 @@ function cleanGeneratedFiles(targetPath: string, dir: string) {
   const filesPath = path.join(targetPath, dir, '.openapi-generator', 'FILES');
   if (fs.existsSync(filesPath)) {
     console.log(`Cleaning previously generated files in ${dir === '.' ? 'root' : dir}...`);
-    const files = fs.readFileSync(filesPath, 'utf-8')
+    const files = fs
+      .readFileSync(filesPath, 'utf-8')
       .split('\n')
-      .filter(f => f.trim());
+      .filter((f) => f.trim());
 
-    files.forEach(file => {
+    files.forEach((file) => {
       const fullPath = path.join(targetPath, dir, file);
       if (fs.existsSync(fullPath)) {
         console.log(`  Removing: ${file}`);
@@ -92,7 +93,8 @@ export default async function generateClients(options: ClientGeneratorSchemaType
   }
 
   // Clean before generation (if enabled)
-  if (options.clean !== false) { // Default to true
+  if (options.clean !== false) {
+    // Default to true
     console.log('Cleaning previously generated files...');
     Object.keys(options.specs).forEach((specName) => {
       const dir = specName !== 'default' ? specName : '.';

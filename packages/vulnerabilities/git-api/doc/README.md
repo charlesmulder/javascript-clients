@@ -1,4 +1,6 @@
-@redhat-cloud-services/vulnerabilities-client / [Exports](modules.md)
+**@redhat-cloud-services/vulnerabilities-client**
+
+***
 
 # Javascript client for Vulnerability API
 If you want to use [RedHatInsights/vulnerability-engine](https://github.com/RedHatInsights/vulnerability-engine) you shouldn't use get requests directly, but rather use this client to integrate with this service.
@@ -66,4 +68,4 @@ Run `nx test @redhat-cloud-services/vulnerabilities-client` to execute the unit 
 
 ## API documentation
 
-* [README](doc/README.md)
+* [README](_media/README.md)

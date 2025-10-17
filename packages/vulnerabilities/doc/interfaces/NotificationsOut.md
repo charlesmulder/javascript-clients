@@ -1,29 +1,27 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / NotificationsOut
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / NotificationsOut
 
 # Interface: NotificationsOut
 
-**`Export`**
+Defined in: [api.ts:2195](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2195)
+
+## Export
 
 NotificationsOut
-
-## Table of contents
-
-### Properties
-
-- [deleted](NotificationsOut.md#deleted)
 
 ## Properties
 
 ### deleted
 
-• **deleted**: `number`
+> **deleted**: `number`
+
+Defined in: [api.ts:2201](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2201)
 
 Number of deleted notifications for CVEs
 
-**`Memberof`**
+#### Memberof
 
 NotificationsOut
-
-#### Defined in
-
-[api.ts:2233](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2233)

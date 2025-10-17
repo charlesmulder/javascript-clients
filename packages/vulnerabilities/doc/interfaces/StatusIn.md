@@ -1,76 +1,65 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / StatusIn
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / StatusIn
 
 # Interface: StatusIn
 
-**`Export`**
+Defined in: [api.ts:2290](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2290)
+
+## Export
 
 StatusIn
-
-## Table of contents
-
-### Properties
-
-- [cve](StatusIn.md#cve)
-- [inventory\_id](StatusIn.md#inventory_id)
-- [status\_id](StatusIn.md#status_id)
-- [status\_text](StatusIn.md#status_text)
 
 ## Properties
 
 ### cve
 
-• **cve**: [`CveOrList`](../modules.md#cveorlist)
+> **cve**: [`CveOrList`](../type-aliases/CveOrList.md)
 
-**`Memberof`**
+Defined in: [api.ts:2302](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2302)
 
-StatusIn
-
-#### Defined in
-
-[api.ts:2321](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2321)
-
-___
-
-### inventory\_id
-
-• `Optional` **inventory\_id**: [`InventoryIdOrList`](../modules.md#inventoryidorlist)
-
-**`Memberof`**
+#### Memberof
 
 StatusIn
 
-#### Defined in
+***
 
-[api.ts:2315](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2315)
+### inventory\_id?
 
-___
+> `optional` **inventory\_id**: [`InventoryIdOrList`](../type-aliases/InventoryIdOrList.md)
 
-### status\_id
+Defined in: [api.ts:2296](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2296)
 
-• `Optional` **status\_id**: `number`
+#### Memberof
+
+StatusIn
+
+***
+
+### status\_id?
+
+> `optional` **status\_id**: `number`
+
+Defined in: [api.ts:2308](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2308)
 
 Status ID to be set, obtained by GET method. If not specified, global CVE status is set.
 
-**`Memberof`**
+#### Memberof
 
 StatusIn
 
-#### Defined in
+***
 
-[api.ts:2327](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2327)
+### status\_text?
 
-___
+> `optional` **status\_text**: `string` \| `null`
 
-### status\_text
-
-• `Optional` **status\_text**: ``null`` \| `string`
+Defined in: [api.ts:2314](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2314)
 
 Complementary text to the status.
 
-**`Memberof`**
+#### Memberof
 
 StatusIn
-
-#### Defined in
-
-[api.ts:2333](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2333)

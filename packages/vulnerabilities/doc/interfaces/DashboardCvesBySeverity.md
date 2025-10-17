@@ -1,59 +1,51 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / DashboardCvesBySeverity
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / DashboardCvesBySeverity
 
 # Interface: DashboardCvesBySeverity
 
+Defined in: [api.ts:567](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L567)
+
 Number of CVEs discovered on the managed systems, divided into buckets based on their CVSSv3 score (CVSSv2 is used when CVSSv3 is not available).
 
-**`Export`**
+## Export
 
 DashboardCvesBySeverity
-
-## Table of contents
-
-### Properties
-
-- [\_0to3\_9](DashboardCvesBySeverity.md#_0to3_9)
-- [\_4to7\_9](DashboardCvesBySeverity.md#_4to7_9)
-- [\_8to10](DashboardCvesBySeverity.md#_8to10)
 
 ## Properties
 
 ### \_0to3\_9
 
-• **\_0to3\_9**: [`DashboardCvesBySeverity0to39`](DashboardCvesBySeverity0to39.md)
+> **\_0to3\_9**: [`DashboardCvesBySeverity0to39`](DashboardCvesBySeverity0to39.md)
 
-**`Memberof`**
+Defined in: [api.ts:573](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L573)
+
+#### Memberof
 
 DashboardCvesBySeverity
 
-#### Defined in
-
-[api.ts:573](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L573)
-
-___
+***
 
 ### \_4to7\_9
 
-• **\_4to7\_9**: [`DashboardCvesBySeverity4to79`](DashboardCvesBySeverity4to79.md)
+> **\_4to7\_9**: [`DashboardCvesBySeverity4to79`](DashboardCvesBySeverity4to79.md)
 
-**`Memberof`**
+Defined in: [api.ts:579](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L579)
+
+#### Memberof
 
 DashboardCvesBySeverity
 
-#### Defined in
-
-[api.ts:579](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L579)
-
-___
+***
 
 ### \_8to10
 
-• **\_8to10**: [`DashboardCvesBySeverity8to10`](DashboardCvesBySeverity8to10.md)
+> **\_8to10**: [`DashboardCvesBySeverity8to10`](DashboardCvesBySeverity8to10.md)
 
-**`Memberof`**
+Defined in: [api.ts:585](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L585)
+
+#### Memberof
 
 DashboardCvesBySeverity
-
-#### Defined in
-
-[api.ts:585](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L585)

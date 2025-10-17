@@ -1,216 +1,181 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / MetaCvesAllOf
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / MetaCvesAllOf
 
 # Interface: MetaCvesAllOf
 
-**`Export`**
+Defined in: [api.ts:1580](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1580)
+
+## Export
 
 MetaCvesAllOf
-
-## Table of contents
-
-### Properties
-
-- [business\_risk\_id](MetaCvesAllOf.md#business_risk_id)
-- [cves\_without\_errata](MetaCvesAllOf.md#cves_without_errata)
-- [cvss\_from](MetaCvesAllOf.md#cvss_from)
-- [cvss\_to](MetaCvesAllOf.md#cvss_to)
-- [first\_reported\_from](MetaCvesAllOf.md#first_reported_from)
-- [first\_reported\_to](MetaCvesAllOf.md#first_reported_to)
-- [impact](MetaCvesAllOf.md#impact)
-- [patch\_access](MetaCvesAllOf.md#patch_access)
-- [public\_from](MetaCvesAllOf.md#public_from)
-- [public\_to](MetaCvesAllOf.md#public_to)
-- [rule\_presence](MetaCvesAllOf.md#rule_presence)
-- [status\_id](MetaCvesAllOf.md#status_id)
 
 ## Properties
 
 ### business\_risk\_id
 
-• **business\_risk\_id**: ``null`` \| `string`
+> **business\_risk\_id**: `string` \| `null`
+
+Defined in: [api.ts:1586](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1586)
 
 Filter based on business risk IDs.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesAllOf
 
-#### Defined in
-
-[api.ts:1586](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1586)
-
-___
+***
 
 ### cves\_without\_errata
 
-• **cves\_without\_errata**: ``null`` \| `boolean`
+> **cves\_without\_errata**: `boolean` \| `null`
+
+Defined in: [api.ts:1652](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1652)
 
 CVEs without Errata feature flag
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesAllOf
 
-#### Defined in
-
-[api.ts:1652](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1652)
-
-___
+***
 
 ### cvss\_from
 
-• **cvss\_from**: ``null`` \| `number`
+> **cvss\_from**: `number` \| `null`
+
+Defined in: [api.ts:1592](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1592)
 
 Filter based on cvss score, starting from the value. Use -1 to include also CVEs with N/A cvss score.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesAllOf
 
-#### Defined in
-
-[api.ts:1592](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1592)
-
-___
+***
 
 ### cvss\_to
 
-• **cvss\_to**: ``null`` \| `number`
+> **cvss\_to**: `number` \| `null`
+
+Defined in: [api.ts:1598](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1598)
 
 Filter based on cvss score, up to the value.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesAllOf
 
-#### Defined in
-
-[api.ts:1598](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1598)
-
-___
+***
 
 ### first\_reported\_from
 
-• **first\_reported\_from**: ``null`` \| `string`
+> **first\_reported\_from**: `string` \| `null`
+
+Defined in: [api.ts:1640](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1640)
 
 Filter system-cve pairs based on first time of detection of CVE.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesAllOf
 
-#### Defined in
-
-[api.ts:1640](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1640)
-
-___
+***
 
 ### first\_reported\_to
 
-• **first\_reported\_to**: ``null`` \| `string`
+> **first\_reported\_to**: `string` \| `null`
+
+Defined in: [api.ts:1646](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1646)
 
 Filter system-cve pairs based on first time of detection of CVE.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesAllOf
 
-#### Defined in
-
-[api.ts:1646](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1646)
-
-___
+***
 
 ### impact
 
-• **impact**: ``null`` \| `string`
+> **impact**: `string` \| `null`
+
+Defined in: [api.ts:1616](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1616)
 
 Filter based on impact IDs.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesAllOf
 
-#### Defined in
-
-[api.ts:1616](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1616)
-
-___
+***
 
 ### patch\_access
 
-• **patch\_access**: ``null`` \| `boolean`
+> **patch\_access**: `boolean` \| `null`
+
+Defined in: [api.ts:1634](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1634)
 
 If show_advisories=true shows access to patch service else null
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesAllOf
 
-#### Defined in
-
-[api.ts:1634](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1634)
-
-___
+***
 
 ### public\_from
 
-• **public\_from**: ``null`` \| `string`
+> **public\_from**: `string` \| `null`
+
+Defined in: [api.ts:1604](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1604)
 
 Filter CVEs based on their published date, starting from the date.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesAllOf
 
-#### Defined in
-
-[api.ts:1604](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1604)
-
-___
+***
 
 ### public\_to
 
-• **public\_to**: ``null`` \| `string`
+> **public\_to**: `string` \| `null`
+
+Defined in: [api.ts:1610](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1610)
 
 Filter CVEs based on their published date, up to the date.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesAllOf
 
-#### Defined in
-
-[api.ts:1610](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1610)
-
-___
+***
 
 ### rule\_presence
 
-• **rule\_presence**: ``null`` \| `string`
+> **rule\_presence**: `string` \| `null`
+
+Defined in: [api.ts:1628](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1628)
 
 Filter based on presence of security rule
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesAllOf
 
-#### Defined in
-
-[api.ts:1628](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1628)
-
-___
+***
 
 ### status\_id
 
-• **status\_id**: ``null`` \| `string`
+> **status\_id**: `string` \| `null`
+
+Defined in: [api.ts:1622](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1622)
 
 Filer based on CVE status ID.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesAllOf
-
-#### Defined in
-
-[api.ts:1622](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1622)

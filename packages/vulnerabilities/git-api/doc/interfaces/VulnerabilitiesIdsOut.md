@@ -1,57 +1,49 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / VulnerabilitiesIdsOut
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / VulnerabilitiesIdsOut
 
 # Interface: VulnerabilitiesIdsOut
 
-**`Export`**
+Defined in: [api.ts:2650](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2650)
+
+## Export
 
 VulnerabilitiesIdsOut
-
-## Table of contents
-
-### Properties
-
-- [data](VulnerabilitiesIdsOut.md#data)
-- [links](VulnerabilitiesIdsOut.md#links)
-- [meta](VulnerabilitiesIdsOut.md#meta)
 
 ## Properties
 
 ### data
 
-• **data**: `string` \| `object`[]
+> **data**: `string` \| `object`[]
 
-**`Memberof`**
+Defined in: [api.ts:2656](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2656)
+
+#### Memberof
 
 VulnerabilitiesIdsOut
 
-#### Defined in
-
-[api.ts:2713](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2713)
-
-___
+***
 
 ### links
 
-• **links**: [`Links`](Links.md)
+> **links**: [`Links`](Links.md)
 
-**`Memberof`**
+Defined in: [api.ts:2662](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2662)
+
+#### Memberof
 
 VulnerabilitiesIdsOut
 
-#### Defined in
-
-[api.ts:2719](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2719)
-
-___
+***
 
 ### meta
 
-• **meta**: [`MetaVulnerabilitiesOut`](MetaVulnerabilitiesOut.md)
+> **meta**: [`MetaVulnerabilitiesOut`](MetaVulnerabilitiesOut.md)
 
-**`Memberof`**
+Defined in: [api.ts:2668](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2668)
+
+#### Memberof
 
 VulnerabilitiesIdsOut
-
-#### Defined in
-
-[api.ts:2725](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2725)

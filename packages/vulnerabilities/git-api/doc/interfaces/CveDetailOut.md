@@ -1,42 +1,37 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / CveDetailOut
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / CveDetailOut
 
 # Interface: CveDetailOut
 
-**`Export`**
+Defined in: [api.ts:166](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L166)
+
+## Export
 
 CveDetailOut
-
-## Table of contents
-
-### Properties
-
-- [data](CveDetailOut.md#data)
-- [meta](CveDetailOut.md#meta)
 
 ## Properties
 
-### data
+### data?
 
-• `Optional` **data**: [`CveDetailOutData`](CveDetailOutData.md)
+> `optional` **data**: [`CveDetailOutData`](CveDetailOutData.md)
 
-**`Memberof`**
+Defined in: [api.ts:172](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L172)
 
-CveDetailOut
-
-#### Defined in
-
-[api.ts:172](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L172)
-
-___
-
-### meta
-
-• `Optional` **meta**: [`MetaPermissions`](MetaPermissions.md)
-
-**`Memberof`**
+#### Memberof
 
 CveDetailOut
 
-#### Defined in
+***
 
-[api.ts:178](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L178)
+### meta?
+
+> `optional` **meta**: [`MetaPermissions`](MetaPermissions.md)
+
+Defined in: [api.ts:178](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L178)
+
+#### Memberof
+
+CveDetailOut

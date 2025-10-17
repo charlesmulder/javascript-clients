@@ -1,61 +1,53 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / VulnerabilitiesPostOutData
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / VulnerabilitiesPostOutData
 
 # Interface: VulnerabilitiesPostOutData
 
-**`Export`**
+Defined in: [api.ts:2763](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2763)
+
+## Export
 
 VulnerabilitiesPostOutData
-
-## Table of contents
-
-### Properties
-
-- [attributes](VulnerabilitiesPostOutData.md#attributes)
-- [id](VulnerabilitiesPostOutData.md#id)
-- [type](VulnerabilitiesPostOutData.md#type)
 
 ## Properties
 
 ### attributes
 
-• **attributes**: [`VulnerabilitiesPostOutAttributes`](VulnerabilitiesPostOutAttributes.md)
+> **attributes**: [`VulnerabilitiesPostOutAttributes`](VulnerabilitiesPostOutAttributes.md)
 
-**`Memberof`**
+Defined in: [api.ts:2781](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2781)
+
+#### Memberof
 
 VulnerabilitiesPostOutData
 
-#### Defined in
-
-[api.ts:2838](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2838)
-
-___
+***
 
 ### id
 
-• **id**: `string`
+> **id**: `string`
+
+Defined in: [api.ts:2769](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2769)
 
 CVE id.
 
-**`Memberof`**
+#### Memberof
 
 VulnerabilitiesPostOutData
 
-#### Defined in
-
-[api.ts:2826](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2826)
-
-___
+***
 
 ### type
 
-• **type**: `string`
+> **type**: `string`
+
+Defined in: [api.ts:2775](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2775)
 
 Type of the record.
 
-**`Memberof`**
+#### Memberof
 
 VulnerabilitiesPostOutData
-
-#### Defined in
-
-[api.ts:2832](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2832)

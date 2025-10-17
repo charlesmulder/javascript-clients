@@ -1,42 +1,37 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / SystemDetailsOut
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / SystemDetailsOut
 
 # Interface: SystemDetailsOut
 
-**`Export`**
+Defined in: [api.ts:2460](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2460)
+
+## Export
 
 SystemDetailsOut
-
-## Table of contents
-
-### Properties
-
-- [data](SystemDetailsOut.md#data)
-- [meta](SystemDetailsOut.md#meta)
 
 ## Properties
 
 ### data
 
-• **data**: [`SystemDetailsOutData`](SystemDetailsOutData.md)
+> **data**: [`SystemDetailsOutData`](SystemDetailsOutData.md)
 
-**`Memberof`**
+Defined in: [api.ts:2466](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2466)
+
+#### Memberof
 
 SystemDetailsOut
 
-#### Defined in
-
-[api.ts:2539](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2539)
-
-___
+***
 
 ### meta
 
-• **meta**: [`MetaPermissions`](MetaPermissions.md)
+> **meta**: [`MetaPermissions`](MetaPermissions.md)
 
-**`Memberof`**
+Defined in: [api.ts:2472](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2472)
+
+#### Memberof
 
 SystemDetailsOut
-
-#### Defined in
-
-[api.ts:2545](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2545)

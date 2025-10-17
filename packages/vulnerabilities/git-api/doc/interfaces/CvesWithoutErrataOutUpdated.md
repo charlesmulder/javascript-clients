@@ -1,42 +1,37 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / CvesWithoutErrataOutUpdated
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / CvesWithoutErrataOutUpdated
 
 # Interface: CvesWithoutErrataOutUpdated
 
-**`Export`**
+Defined in: [api.ts:455](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L455)
+
+## Export
 
 CvesWithoutErrataOutUpdated
-
-## Table of contents
-
-### Properties
-
-- [cves\_without\_errata](CvesWithoutErrataOutUpdated.md#cves_without_errata)
-- [org\_id](CvesWithoutErrataOutUpdated.md#org_id)
 
 ## Properties
 
-### cves\_without\_errata
+### cves\_without\_errata?
 
-• `Optional` **cves\_without\_errata**: [`CvesWithoutErrataOutUpdatedCvesWithoutErrata`](CvesWithoutErrataOutUpdatedCvesWithoutErrata.md)
+> `optional` **cves\_without\_errata**: [`CvesWithoutErrataOutUpdatedCvesWithoutErrata`](CvesWithoutErrataOutUpdatedCvesWithoutErrata.md)
 
-**`Memberof`**
+Defined in: [api.ts:467](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L467)
 
-CvesWithoutErrataOutUpdated
-
-#### Defined in
-
-[api.ts:467](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L467)
-
-___
-
-### org\_id
-
-• `Optional` **org\_id**: `string`
-
-**`Memberof`**
+#### Memberof
 
 CvesWithoutErrataOutUpdated
 
-#### Defined in
+***
 
-[api.ts:461](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L461)
+### org\_id?
+
+> `optional` **org\_id**: `string`
+
+Defined in: [api.ts:461](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L461)
+
+#### Memberof
+
+CvesWithoutErrataOutUpdated

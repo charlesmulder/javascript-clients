@@ -1,146 +1,123 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / Configuration
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / Configuration
 
 # Class: Configuration
 
-## Table of contents
-
-### Constructors
-
-- [constructor](Configuration.md#constructor)
-
-### Properties
-
-- [accessToken](Configuration.md#accesstoken)
-- [apiKey](Configuration.md#apikey)
-- [baseOptions](Configuration.md#baseoptions)
-- [basePath](Configuration.md#basepath)
-- [password](Configuration.md#password)
-- [username](Configuration.md#username)
+Defined in: [configuration.ts:24](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/configuration.ts#L24)
 
 ## Constructors
 
-### constructor
+### Constructor
 
-• **new Configuration**(`param?`): [`Configuration`](Configuration.md)
+> **new Configuration**(`param`): `Configuration`
+
+Defined in: [configuration.ts:67](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/configuration.ts#L67)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `param` | [`ConfigurationParameters`](../interfaces/ConfigurationParameters.md) |
+##### param
+
+[`ConfigurationParameters`](../interfaces/ConfigurationParameters.md) = `{}`
 
 #### Returns
 
-[`Configuration`](Configuration.md)
-
-#### Defined in
-
-[configuration.ts:67](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/configuration.ts#L67)
+`Configuration`
 
 ## Properties
 
-### accessToken
+### accessToken?
 
-• `Optional` **accessToken**: `string` \| (`name?`: `string`, `scopes?`: `string`[]) => `string`
+> `optional` **accessToken**: `string` \| (`name?`, `scopes?`) => `string`
+
+Defined in: [configuration.ts:51](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/configuration.ts#L51)
 
 parameter for oauth2 security
 
-**`Param`**
+#### Param
 
 security name
 
-**`Param`**
+#### Param
 
 oauth2 scope
 
-**`Memberof`**
+#### Memberof
 
 Configuration
 
-#### Defined in
+***
 
-[configuration.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/configuration.ts#L51)
+### apiKey?
 
-___
+> `optional` **apiKey**: `string` \| `Promise`\<`string`\> \| (`name`) => `string` \| (`name`) => `Promise`\<`string`\>
 
-### apiKey
-
-• `Optional` **apiKey**: `string` \| `Promise`\<`string`\> \| (`name`: `string`) => `string` \| (`name`: `string`) => `Promise`\<`string`\>
+Defined in: [configuration.ts:30](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/configuration.ts#L30)
 
 parameter for apiKey security
 
-**`Param`**
+#### Param
 
 security name
 
-**`Memberof`**
+#### Memberof
 
 Configuration
 
-#### Defined in
+***
 
-[configuration.ts:30](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/configuration.ts#L30)
+### baseOptions?
 
-___
+> `optional` **baseOptions**: `any`
 
-### baseOptions
-
-• `Optional` **baseOptions**: `any`
+Defined in: [configuration.ts:65](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/configuration.ts#L65)
 
 base options for axios calls
 
-**`Memberof`**
+#### Memberof
 
 Configuration
 
-#### Defined in
+***
 
-[configuration.ts:65](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/configuration.ts#L65)
+### basePath?
 
-___
+> `optional` **basePath**: `string`
 
-### basePath
-
-• `Optional` **basePath**: `string`
+Defined in: [configuration.ts:58](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/configuration.ts#L58)
 
 override base path
 
-**`Memberof`**
+#### Memberof
 
 Configuration
 
-#### Defined in
+***
 
-[configuration.ts:58](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/configuration.ts#L58)
+### password?
 
-___
+> `optional` **password**: `string`
 
-### password
-
-• `Optional` **password**: `string`
+Defined in: [configuration.ts:44](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/configuration.ts#L44)
 
 parameter for basic security
 
-**`Memberof`**
+#### Memberof
 
 Configuration
 
-#### Defined in
+***
 
-[configuration.ts:44](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/configuration.ts#L44)
+### username?
 
-___
+> `optional` **username**: `string`
 
-### username
-
-• `Optional` **username**: `string`
+Defined in: [configuration.ts:37](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/configuration.ts#L37)
 
 parameter for basic security
 
-**`Memberof`**
+#### Memberof
 
 Configuration
-
-#### Defined in
-
-[configuration.ts:37](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/configuration.ts#L37)

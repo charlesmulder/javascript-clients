@@ -1,63 +1,55 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / VulnerabilitiesPostOutAttributes
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / VulnerabilitiesPostOutAttributes
 
 # Interface: VulnerabilitiesPostOutAttributes
 
-**`Export`**
+Defined in: [api.ts:2738](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2738)
+
+## Export
 
 VulnerabilitiesPostOutAttributes
-
-## Table of contents
-
-### Properties
-
-- [cvss\_score](VulnerabilitiesPostOutAttributes.md#cvss_score)
-- [impact](VulnerabilitiesPostOutAttributes.md#impact)
-- [synopsis](VulnerabilitiesPostOutAttributes.md#synopsis)
 
 ## Properties
 
 ### cvss\_score
 
-• **cvss\_score**: ``null`` \| `string`
+> **cvss\_score**: `string` \| `null`
+
+Defined in: [api.ts:2744](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2744)
 
 String representation of cvss3 or cvvs2 (if v3 is not present) score of the CVE.
 
-**`Memberof`**
+#### Memberof
 
 VulnerabilitiesPostOutAttributes
 
-#### Defined in
-
-[api.ts:2741](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2741)
-
-___
+***
 
 ### impact
 
-• **impact**: `string`
+> **impact**: `string`
+
+Defined in: [api.ts:2750](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2750)
 
 Red Hat security impact of the CVE.
 
-**`Memberof`**
+#### Memberof
 
 VulnerabilitiesPostOutAttributes
 
-#### Defined in
-
-[api.ts:2747](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2747)
-
-___
+***
 
 ### synopsis
 
-• **synopsis**: `string`
+> **synopsis**: `string`
+
+Defined in: [api.ts:2756](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2756)
 
 Synopsis of the CVE.
 
-**`Memberof`**
+#### Memberof
 
 VulnerabilitiesPostOutAttributes
-
-#### Defined in
-
-[api.ts:2753](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2753)

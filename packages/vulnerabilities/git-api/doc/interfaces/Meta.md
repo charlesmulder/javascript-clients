@@ -1,165 +1,139 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / Meta
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / Meta
 
 # Interface: Meta
 
-**`Export`**
+Defined in: [api.ts:1186](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1186)
+
+## Export
 
 Meta
-
-## Table of contents
-
-### Properties
-
-- [data\_format](Meta.md#data_format)
-- [filter](Meta.md#filter)
-- [limit](Meta.md#limit)
-- [offset](Meta.md#offset)
-- [page](Meta.md#page)
-- [page\_size](Meta.md#page_size)
-- [pages](Meta.md#pages)
-- [sort](Meta.md#sort)
-- [total\_items](Meta.md#total_items)
 
 ## Properties
 
 ### data\_format
 
-• **data\_format**: `string`
+> **data\_format**: `string`
+
+Defined in: [api.ts:1240](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1240)
 
 Format of the output data, either JSON (default) or CSV.
 
-**`Memberof`**
+#### Memberof
 
 Meta
 
-#### Defined in
-
-[api.ts:1240](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1240)
-
-___
+***
 
 ### filter
 
-• **filter**: ``null`` \| `string`
+> **filter**: `string` \| `null`
+
+Defined in: [api.ts:1192](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1192)
 
 Full text filter
 
-**`Memberof`**
+#### Memberof
 
 Meta
 
-#### Defined in
-
-[api.ts:1192](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1192)
-
-___
+***
 
 ### limit
 
-• **limit**: `number`
+> **limit**: `number`
+
+Defined in: [api.ts:1198](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1198)
 
 Maximum number of paginated results.
 
-**`Memberof`**
+#### Memberof
 
 Meta
 
-#### Defined in
-
-[api.ts:1198](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1198)
-
-___
+***
 
 ### offset
 
-• **offset**: `number`
+> **offset**: `number`
+
+Defined in: [api.ts:1204](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1204)
 
 First record of paginated response.
 
-**`Memberof`**
+#### Memberof
 
 Meta
 
-#### Defined in
-
-[api.ts:1204](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1204)
-
-___
+***
 
 ### page
 
-• **page**: `number`
+> **page**: `number`
+
+Defined in: [api.ts:1210](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1210)
 
 Page number of paginated response.
 
-**`Memberof`**
+#### Memberof
 
 Meta
 
-#### Defined in
-
-[api.ts:1210](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1210)
-
-___
+***
 
 ### page\_size
 
-• **page\_size**: `number`
+> **page\_size**: `number`
+
+Defined in: [api.ts:1216](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1216)
 
 Number of records per page of paginated response.
 
-**`Memberof`**
+#### Memberof
 
 Meta
 
-#### Defined in
-
-[api.ts:1216](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1216)
-
-___
+***
 
 ### pages
 
-• **pages**: `number`
+> **pages**: `number`
+
+Defined in: [api.ts:1222](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1222)
 
 Total number of pages of paginated response.
 
-**`Memberof`**
+#### Memberof
 
 Meta
 
-#### Defined in
-
-[api.ts:1222](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1222)
-
-___
+***
 
 ### sort
 
-• **sort**: ``null`` \| `string`
+> **sort**: `string` \| `null`
+
+Defined in: [api.ts:1228](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1228)
 
 Sorting filter.
 
-**`Memberof`**
+#### Memberof
 
 Meta
 
-#### Defined in
-
-[api.ts:1228](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1228)
-
-___
+***
 
 ### total\_items
 
-• **total\_items**: `number`
+> **total\_items**: `number`
+
+Defined in: [api.ts:1234](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1234)
 
 Total number of records.
 
-**`Memberof`**
+#### Memberof
 
 Meta
-
-#### Defined in
-
-[api.ts:1234](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1234)

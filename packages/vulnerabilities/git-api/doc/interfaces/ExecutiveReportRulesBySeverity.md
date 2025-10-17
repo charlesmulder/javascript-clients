@@ -1,74 +1,63 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / ExecutiveReportRulesBySeverity
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / ExecutiveReportRulesBySeverity
 
 # Interface: ExecutiveReportRulesBySeverity
 
+Defined in: [api.ts:928](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L928)
+
 Information about how much systems are affected by a security rule, broken down by rule severity.
 
-**`Export`**
+## Export
 
 ExecutiveReportRulesBySeverity
-
-## Table of contents
-
-### Properties
-
-- [\_1](ExecutiveReportRulesBySeverity.md#_1)
-- [\_2](ExecutiveReportRulesBySeverity.md#_2)
-- [\_3](ExecutiveReportRulesBySeverity.md#_3)
-- [\_4](ExecutiveReportRulesBySeverity.md#_4)
 
 ## Properties
 
 ### \_1
 
-• **\_1**: [`ExecutiveReportRulesBySeverity1`](ExecutiveReportRulesBySeverity1.md)
+> **\_1**: [`ExecutiveReportRulesBySeverity1`](ExecutiveReportRulesBySeverity1.md)
 
-**`Memberof`**
+Defined in: [api.ts:934](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L934)
+
+#### Memberof
 
 ExecutiveReportRulesBySeverity
 
-#### Defined in
-
-[api.ts:934](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L934)
-
-___
+***
 
 ### \_2
 
-• **\_2**: [`ExecutiveReportRulesBySeverity1`](ExecutiveReportRulesBySeverity1.md)
+> **\_2**: [`ExecutiveReportRulesBySeverity1`](ExecutiveReportRulesBySeverity1.md)
 
-**`Memberof`**
+Defined in: [api.ts:940](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L940)
+
+#### Memberof
 
 ExecutiveReportRulesBySeverity
 
-#### Defined in
-
-[api.ts:940](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L940)
-
-___
+***
 
 ### \_3
 
-• **\_3**: [`ExecutiveReportRulesBySeverity1`](ExecutiveReportRulesBySeverity1.md)
+> **\_3**: [`ExecutiveReportRulesBySeverity1`](ExecutiveReportRulesBySeverity1.md)
 
-**`Memberof`**
+Defined in: [api.ts:946](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L946)
+
+#### Memberof
 
 ExecutiveReportRulesBySeverity
 
-#### Defined in
-
-[api.ts:946](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L946)
-
-___
+***
 
 ### \_4
 
-• **\_4**: [`ExecutiveReportRulesBySeverity1`](ExecutiveReportRulesBySeverity1.md)
+> **\_4**: [`ExecutiveReportRulesBySeverity1`](ExecutiveReportRulesBySeverity1.md)
 
-**`Memberof`**
+Defined in: [api.ts:952](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L952)
+
+#### Memberof
 
 ExecutiveReportRulesBySeverity
-
-#### Defined in
-
-[api.ts:952](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L952)

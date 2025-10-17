@@ -1,72 +1,61 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / DashbarOut
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / DashbarOut
 
 # Interface: DashbarOut
 
-**`Export`**
+Defined in: [api.ts:487](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L487)
+
+## Export
 
 DashbarOut
-
-## Table of contents
-
-### Properties
-
-- [critical\_cves](DashbarOut.md#critical_cves)
-- [cves\_with\_rule](DashbarOut.md#cves_with_rule)
-- [exploitable\_cves](DashbarOut.md#exploitable_cves)
-- [important\_cves](DashbarOut.md#important_cves)
 
 ## Properties
 
-### critical\_cves
+### critical\_cves?
 
-• `Optional` **critical\_cves**: `number`
+> `optional` **critical\_cves**: `number`
 
-**`Memberof`**
+Defined in: [api.ts:505](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L505)
 
-DashbarOut
-
-#### Defined in
-
-[api.ts:505](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L505)
-
-___
-
-### cves\_with\_rule
-
-• `Optional` **cves\_with\_rule**: `number`
-
-**`Memberof`**
+#### Memberof
 
 DashbarOut
 
-#### Defined in
+***
 
-[api.ts:499](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L499)
+### cves\_with\_rule?
 
-___
+> `optional` **cves\_with\_rule**: `number`
 
-### exploitable\_cves
+Defined in: [api.ts:499](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L499)
 
-• `Optional` **exploitable\_cves**: `number`
-
-**`Memberof`**
+#### Memberof
 
 DashbarOut
 
-#### Defined in
+***
 
-[api.ts:493](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L493)
+### exploitable\_cves?
 
-___
+> `optional` **exploitable\_cves**: `number`
 
-### important\_cves
+Defined in: [api.ts:493](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L493)
 
-• `Optional` **important\_cves**: `number`
-
-**`Memberof`**
+#### Memberof
 
 DashbarOut
 
-#### Defined in
+***
 
-[api.ts:511](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L511)
+### important\_cves?
+
+> `optional` **important\_cves**: `number`
+
+Defined in: [api.ts:511](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L511)
+
+#### Memberof
+
+DashbarOut

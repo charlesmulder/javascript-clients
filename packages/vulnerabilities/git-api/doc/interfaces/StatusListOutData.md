@@ -1,46 +1,41 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / StatusListOutData
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / StatusListOutData
 
 # Interface: StatusListOutData
 
-**`Export`**
+Defined in: [api.ts:2340](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2340)
+
+## Export
 
 StatusListOutData
-
-## Table of contents
-
-### Properties
-
-- [id](StatusListOutData.md#id)
-- [name](StatusListOutData.md#name)
 
 ## Properties
 
 ### id
 
-• **id**: `number`
+> **id**: `number`
+
+Defined in: [api.ts:2346](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2346)
 
 Internal status_id.
 
-**`Memberof`**
+#### Memberof
 
 StatusListOutData
 
-#### Defined in
-
-[api.ts:2419](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2419)
-
-___
+***
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
+
+Defined in: [api.ts:2352](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2352)
 
 Represenation of internal status_id.
 
-**`Memberof`**
+#### Memberof
 
 StatusListOutData
-
-#### Defined in
-
-[api.ts:2425](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2425)

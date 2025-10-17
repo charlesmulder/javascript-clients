@@ -1,182 +1,153 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / MetaAffectedSystemsAllOf
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / MetaAffectedSystemsAllOf
 
 # Interface: MetaAffectedSystemsAllOf
 
-**`Export`**
+Defined in: [api.ts:1374](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1374)
+
+## Export
 
 MetaAffectedSystemsAllOf
-
-## Table of contents
-
-### Properties
-
-- [cves\_without\_errata](MetaAffectedSystemsAllOf.md#cves_without_errata)
-- [first\_reported\_from](MetaAffectedSystemsAllOf.md#first_reported_from)
-- [first\_reported\_to](MetaAffectedSystemsAllOf.md#first_reported_to)
-- [group\_ids](MetaAffectedSystemsAllOf.md#group_ids)
-- [group\_names](MetaAffectedSystemsAllOf.md#group_names)
-- [patch\_access](MetaAffectedSystemsAllOf.md#patch_access)
-- [rhel\_version](MetaAffectedSystemsAllOf.md#rhel_version)
-- [rule\_key](MetaAffectedSystemsAllOf.md#rule_key)
-- [rule\_presence](MetaAffectedSystemsAllOf.md#rule_presence)
-- [status\_id](MetaAffectedSystemsAllOf.md#status_id)
 
 ## Properties
 
 ### cves\_without\_errata
 
-• **cves\_without\_errata**: ``null`` \| `boolean`
+> **cves\_without\_errata**: `boolean` \| `null`
+
+Defined in: [api.ts:1422](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1422)
 
 CVEs without Errata feature flag
 
-**`Memberof`**
+#### Memberof
 
 MetaAffectedSystemsAllOf
 
-#### Defined in
-
-[api.ts:1422](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1422)
-
-___
+***
 
 ### first\_reported\_from
 
-• **first\_reported\_from**: ``null`` \| `string`
+> **first\_reported\_from**: `string` \| `null`
+
+Defined in: [api.ts:1410](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1410)
 
 Filter system-cve pairs based on first time of detection of CVE.
 
-**`Memberof`**
+#### Memberof
 
 MetaAffectedSystemsAllOf
 
-#### Defined in
-
-[api.ts:1410](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1410)
-
-___
+***
 
 ### first\_reported\_to
 
-• **first\_reported\_to**: ``null`` \| `string`
+> **first\_reported\_to**: `string` \| `null`
+
+Defined in: [api.ts:1416](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1416)
 
 Filter system-cve pairs based on first time of detection of CVE.
 
-**`Memberof`**
+#### Memberof
 
 MetaAffectedSystemsAllOf
 
-#### Defined in
-
-[api.ts:1416](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1416)
-
-___
+***
 
 ### group\_ids
 
-• **group\_ids**: ``null`` \| `string`
+> **group\_ids**: `string` \| `null`
+
+Defined in: [api.ts:1434](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1434)
 
 ID of the inventory group.
 
-**`Memberof`**
+#### Memberof
 
 MetaAffectedSystemsAllOf
 
-#### Defined in
-
-[api.ts:1434](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1434)
-
-___
+***
 
 ### group\_names
 
-• **group\_names**: ``null`` \| `string`
+> **group\_names**: `string` \| `null`
+
+Defined in: [api.ts:1428](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1428)
 
 Name of the inventory group.
 
-**`Memberof`**
+#### Memberof
 
 MetaAffectedSystemsAllOf
 
-#### Defined in
-
-[api.ts:1428](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1428)
-
-___
+***
 
 ### patch\_access
 
-• **patch\_access**: ``null`` \| `boolean`
+> **patch\_access**: `boolean` \| `null`
+
+Defined in: [api.ts:1398](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1398)
 
 If show_advisories=true shows access to patch service else null
 
-**`Memberof`**
+#### Memberof
 
 MetaAffectedSystemsAllOf
 
-#### Defined in
-
-[api.ts:1398](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1398)
-
-___
+***
 
 ### rhel\_version
 
-• **rhel\_version**: ``null`` \| `string`
+> **rhel\_version**: `string` \| `null`
+
+Defined in: [api.ts:1404](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1404)
 
 Filter base on system RHEL version.
 
-**`Memberof`**
+#### Memberof
 
 MetaAffectedSystemsAllOf
 
-#### Defined in
-
-[api.ts:1404](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1404)
-
-___
+***
 
 ### rule\_key
 
-• **rule\_key**: ``null`` \| `string`
+> **rule\_key**: `string` \| `null`
+
+Defined in: [api.ts:1386](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1386)
 
 Filters security rules by its error key.
 
-**`Memberof`**
+#### Memberof
 
 MetaAffectedSystemsAllOf
 
-#### Defined in
-
-[api.ts:1386](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1386)
-
-___
+***
 
 ### rule\_presence
 
-• **rule\_presence**: ``null`` \| `string`
+> **rule\_presence**: `string` \| `null`
+
+Defined in: [api.ts:1392](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1392)
 
 Filter based on presence of security rule
 
-**`Memberof`**
+#### Memberof
 
 MetaAffectedSystemsAllOf
 
-#### Defined in
-
-[api.ts:1392](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1392)
-
-___
+***
 
 ### status\_id
 
-• **status\_id**: ``null`` \| `string`
+> **status\_id**: `string` \| `null`
+
+Defined in: [api.ts:1380](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1380)
 
 Filer based on CVE status ID.
 
-**`Memberof`**
+#### Memberof
 
 MetaAffectedSystemsAllOf
-
-#### Defined in
-
-[api.ts:1380](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1380)

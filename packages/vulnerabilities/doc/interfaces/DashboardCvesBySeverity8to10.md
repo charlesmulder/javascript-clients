@@ -1,63 +1,55 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / DashboardCvesBySeverity8to10
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / DashboardCvesBySeverity8to10
 
 # Interface: DashboardCvesBySeverity8to10
 
-**`Export`**
+Defined in: [api.ts:642](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L642)
+
+## Export
 
 DashboardCvesBySeverity8to10
-
-## Table of contents
-
-### Properties
-
-- [count](DashboardCvesBySeverity8to10.md#count)
-- [known\_exploits](DashboardCvesBySeverity8to10.md#known_exploits)
-- [percentage](DashboardCvesBySeverity8to10.md#percentage)
 
 ## Properties
 
 ### count
 
-• **count**: `number`
+> **count**: `number`
+
+Defined in: [api.ts:648](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L648)
 
 Number of CVEs with CVSS score higher or equal to 8.
 
-**`Memberof`**
+#### Memberof
 
 DashboardCvesBySeverity8to10
 
-#### Defined in
+***
 
-[api.ts:648](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L648)
+### known\_exploits?
 
-___
+> `optional` **known\_exploits**: `number`
 
-### known\_exploits
-
-• `Optional` **known\_exploits**: `number`
+Defined in: [api.ts:660](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L660)
 
 Number of CVEs in given bracket with a known exploit.
 
-**`Memberof`**
+#### Memberof
 
 DashboardCvesBySeverity8to10
 
-#### Defined in
-
-[api.ts:660](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L660)
-
-___
+***
 
 ### percentage
 
-• **percentage**: `number`
+> **percentage**: `number`
+
+Defined in: [api.ts:654](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L654)
 
 Percentage of CVEs with CVSS score higher or equal to 8.
 
-**`Memberof`**
+#### Memberof
 
 DashboardCvesBySeverity8to10
-
-#### Defined in
-
-[api.ts:654](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L654)

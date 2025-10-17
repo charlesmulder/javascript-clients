@@ -1,57 +1,49 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / AffectedSystemsIdsOut
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / AffectedSystemsIdsOut
 
 # Interface: AffectedSystemsIdsOut
 
-**`Export`**
+Defined in: [api.ts:27](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L27)
+
+## Export
 
 AffectedSystemsIdsOut
-
-## Table of contents
-
-### Properties
-
-- [data](AffectedSystemsIdsOut.md#data)
-- [links](AffectedSystemsIdsOut.md#links)
-- [meta](AffectedSystemsIdsOut.md#meta)
 
 ## Properties
 
 ### data
 
-• **data**: `string` \| `object`[]
+> **data**: `string` \| `object`[]
 
-**`Memberof`**
+Defined in: [api.ts:33](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L33)
+
+#### Memberof
 
 AffectedSystemsIdsOut
 
-#### Defined in
-
-[api.ts:33](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L33)
-
-___
+***
 
 ### links
 
-• **links**: [`Links`](Links.md)
+> **links**: [`Links`](Links.md)
 
-**`Memberof`**
+Defined in: [api.ts:39](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L39)
+
+#### Memberof
 
 AffectedSystemsIdsOut
 
-#### Defined in
-
-[api.ts:39](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L39)
-
-___
+***
 
 ### meta
 
-• **meta**: [`MetaAffectedSystems`](MetaAffectedSystems.md)
+> **meta**: [`MetaAffectedSystems`](MetaAffectedSystems.md)
 
-**`Memberof`**
+Defined in: [api.ts:45](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L45)
+
+#### Memberof
 
 AffectedSystemsIdsOut
-
-#### Defined in
-
-[api.ts:45](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L45)

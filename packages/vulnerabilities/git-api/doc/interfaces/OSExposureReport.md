@@ -1,27 +1,25 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / OSExposureReport
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / OSExposureReport
 
 # Interface: OSExposureReport
 
-**`Export`**
+Defined in: [api.ts:2208](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2208)
+
+## Export
 
 OSExposureReport
-
-## Table of contents
-
-### Properties
-
-- [data](OSExposureReport.md#data)
 
 ## Properties
 
 ### data
 
-• **data**: [`OSExposureReportData`](OSExposureReportData.md)[]
+> **data**: `string` \| `object`[]
 
-**`Memberof`**
+Defined in: [api.ts:2214](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2214)
+
+#### Memberof
 
 OSExposureReport
-
-#### Defined in
-
-[api.ts:2208](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2208)

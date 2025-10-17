@@ -1,146 +1,151 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / SystemDetailsOutData
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / SystemDetailsOutData
 
 # Interface: SystemDetailsOutData
 
-**`Export`**
+Defined in: [api.ts:2479](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2479)
+
+## Export
 
 SystemDetailsOutData
-
-## Table of contents
-
-### Properties
-
-- [last\_evaluation](SystemDetailsOutData.md#last_evaluation)
-- [last\_upload](SystemDetailsOutData.md#last_upload)
-- [opt\_out](SystemDetailsOutData.md#opt_out)
-- [os](SystemDetailsOutData.md#os)
-- [rules\_evaluation](SystemDetailsOutData.md#rules_evaluation)
-- [stale](SystemDetailsOutData.md#stale)
-- [tags](SystemDetailsOutData.md#tags)
-- [updated](SystemDetailsOutData.md#updated)
 
 ## Properties
 
+### host\_type
+
+> **host\_type**: [`SystemDetailsOutDataHostTypeEnum`](../enumerations/SystemDetailsOutDataHostTypeEnum.md)
+
+Defined in: [api.ts:2539](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2539)
+
+Type of the host
+
+#### Memberof
+
+SystemDetailsOutData
+
+***
+
 ### last\_evaluation
 
-• **last\_evaluation**: ``null`` \| `string`
+> **last\_evaluation**: `string` \| `null`
+
+Defined in: [api.ts:2485](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2485)
 
 Date of last evaluation.
 
-**`Memberof`**
+#### Memberof
 
 SystemDetailsOutData
 
-#### Defined in
-
-[api.ts:2504](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2504)
-
-___
+***
 
 ### last\_upload
 
-• **last\_upload**: ``null`` \| `string`
+> **last\_upload**: `string` \| `null`
+
+Defined in: [api.ts:2503](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2503)
 
 Date of the latest upload of archive.
 
-**`Memberof`**
+#### Memberof
 
 SystemDetailsOutData
 
-#### Defined in
-
-[api.ts:2522](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2522)
-
-___
+***
 
 ### opt\_out
 
-• **opt\_out**: `boolean`
+> **opt\_out**: `boolean`
+
+Defined in: [api.ts:2497](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2497)
 
 System opt out status.
 
-**`Memberof`**
+#### Memberof
 
 SystemDetailsOutData
 
-#### Defined in
-
-[api.ts:2516](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2516)
-
-___
+***
 
 ### os
 
-• **os**: `string`
+> **os**: `string`
+
+Defined in: [api.ts:2521](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2521)
 
 Operating system.
 
-**`Memberof`**
+#### Memberof
 
 SystemDetailsOutData
 
-#### Defined in
+***
 
-[api.ts:2540](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2540)
+### rhsm\_lock
 
-___
+> **rhsm\_lock**: `string` \| `null`
+
+Defined in: [api.ts:2527](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2527)
+
+System is locked to following RHSM version.
+
+#### Memberof
+
+SystemDetailsOutData
+
+***
 
 ### rules\_evaluation
 
-• **rules\_evaluation**: ``null`` \| `string`
+> **rules\_evaluation**: `string` \| `null`
+
+Defined in: [api.ts:2491](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2491)
 
 Date of last security rules evaluation.
 
-**`Memberof`**
+#### Memberof
 
 SystemDetailsOutData
 
-#### Defined in
+***
 
-[api.ts:2510](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2510)
+### stale?
 
-___
+> `optional` **stale**: `boolean`
 
-### stale
-
-• `Optional` **stale**: `boolean`
+Defined in: [api.ts:2509](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2509)
 
 System stale status.
 
-**`Memberof`**
+#### Memberof
 
 SystemDetailsOutData
 
-#### Defined in
-
-[api.ts:2528](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2528)
-
-___
+***
 
 ### tags
 
-• **tags**: [`SystemDetailsOutDataTags`](SystemDetailsOutDataTags.md)[]
+> **tags**: [`SystemDetailsOutDataTags`](SystemDetailsOutDataTags.md)[]
 
-**`Memberof`**
+Defined in: [api.ts:2533](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2533)
+
+#### Memberof
 
 SystemDetailsOutData
 
-#### Defined in
+***
 
-[api.ts:2546](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2546)
+### updated?
 
-___
+> `optional` **updated**: `string` \| `null`
 
-### updated
-
-• `Optional` **updated**: ``null`` \| `string`
+Defined in: [api.ts:2515](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2515)
 
 Date of the lastest upload of archive taken from Inventory syndicated data.
 
-**`Memberof`**
+#### Memberof
 
 SystemDetailsOutData
-
-#### Defined in
-
-[api.ts:2534](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2534)

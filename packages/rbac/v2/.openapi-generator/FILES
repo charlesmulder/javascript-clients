@@ -1,5 +1,6 @@
 .gitignore
 .npmignore
+.openapi-generator-ignore
 RoleBindingsListBySubject/index.ts
 WorkspacesCreate/index.ts
 WorkspacesDelete/index.ts

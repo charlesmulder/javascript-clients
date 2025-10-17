@@ -1,29 +1,27 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / BusinessRiskListOutMeta
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / BusinessRiskListOutMeta
 
 # Interface: BusinessRiskListOutMeta
 
-**`Export`**
+Defined in: [api.ts:153](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L153)
+
+## Export
 
 BusinessRiskListOutMeta
-
-## Table of contents
-
-### Properties
-
-- [total\_items](BusinessRiskListOutMeta.md#total_items)
 
 ## Properties
 
 ### total\_items
 
-• **total\_items**: `number`
+> **total\_items**: `number`
+
+Defined in: [api.ts:159](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L159)
 
 Total number of available business risk/business_risk_id pairs.
 
-**`Memberof`**
+#### Memberof
 
 BusinessRiskListOutMeta
-
-#### Defined in
-
-[api.ts:159](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L159)

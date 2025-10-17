@@ -1,61 +1,53 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / CveRiskIn
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / CveRiskIn
 
 # Interface: CveRiskIn
 
-**`Export`**
+Defined in: [api.ts:373](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L373)
+
+## Export
 
 CveRiskIn
-
-## Table of contents
-
-### Properties
-
-- [business\_risk\_id](CveRiskIn.md#business_risk_id)
-- [business\_risk\_text](CveRiskIn.md#business_risk_text)
-- [cve](CveRiskIn.md#cve)
 
 ## Properties
 
-### business\_risk\_id
+### business\_risk\_id?
 
-• `Optional` **business\_risk\_id**: `number`
+> `optional` **business\_risk\_id**: `number`
+
+Defined in: [api.ts:385](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L385)
 
 Business risk ID to be set, obtained by GET method.
 
-**`Memberof`**
+#### Memberof
 
 CveRiskIn
 
-#### Defined in
+***
 
-[api.ts:385](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L385)
+### business\_risk\_text?
 
-___
+> `optional` **business\_risk\_text**: `string` \| `null`
 
-### business\_risk\_text
-
-• `Optional` **business\_risk\_text**: ``null`` \| `string`
+Defined in: [api.ts:391](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L391)
 
 Complementary text to the business risk.
 
-**`Memberof`**
+#### Memberof
 
 CveRiskIn
 
-#### Defined in
-
-[api.ts:391](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L391)
-
-___
+***
 
 ### cve
 
-• **cve**: [`CveOrList`](../modules.md#cveorlist)
+> **cve**: [`CveOrList`](../type-aliases/CveOrList.md)
 
-**`Memberof`**
+Defined in: [api.ts:379](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L379)
+
+#### Memberof
 
 CveRiskIn
-
-#### Defined in
-
-[api.ts:379](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L379)

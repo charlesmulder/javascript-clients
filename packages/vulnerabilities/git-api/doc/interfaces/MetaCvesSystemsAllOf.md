@@ -1,29 +1,27 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / MetaCvesSystemsAllOf
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / MetaCvesSystemsAllOf
 
 # Interface: MetaCvesSystemsAllOf
 
-**`Export`**
+Defined in: [api.ts:1804](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1804)
+
+## Export
 
 MetaCvesSystemsAllOf
-
-## Table of contents
-
-### Properties
-
-- [opt\_out](MetaCvesSystemsAllOf.md#opt_out)
 
 ## Properties
 
 ### opt\_out
 
-• **opt\_out**: `boolean`
+> **opt\_out**: `boolean`
+
+Defined in: [api.ts:1810](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1810)
 
 If given system was opted out.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystemsAllOf
-
-#### Defined in
-
-[api.ts:1810](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1810)

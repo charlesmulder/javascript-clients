@@ -1,61 +1,53 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / CveStatusIn
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / CveStatusIn
 
 # Interface: CveStatusIn
 
-**`Export`**
+Defined in: [api.ts:398](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L398)
+
+## Export
 
 CveStatusIn
-
-## Table of contents
-
-### Properties
-
-- [cve](CveStatusIn.md#cve)
-- [status\_id](CveStatusIn.md#status_id)
-- [status\_text](CveStatusIn.md#status_text)
 
 ## Properties
 
 ### cve
 
-• **cve**: [`CveOrList`](../modules.md#cveorlist)
+> **cve**: [`CveOrList`](../type-aliases/CveOrList.md)
 
-**`Memberof`**
+Defined in: [api.ts:404](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L404)
+
+#### Memberof
 
 CveStatusIn
 
-#### Defined in
+***
 
-[api.ts:404](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L404)
+### status\_id?
 
-___
+> `optional` **status\_id**: `number`
 
-### status\_id
-
-• `Optional` **status\_id**: `number`
+Defined in: [api.ts:410](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L410)
 
 Status ID to be set, obtained by GET method.
 
-**`Memberof`**
+#### Memberof
 
 CveStatusIn
 
-#### Defined in
+***
 
-[api.ts:410](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L410)
+### status\_text?
 
-___
+> `optional` **status\_text**: `string` \| `null`
 
-### status\_text
-
-• `Optional` **status\_text**: ``null`` \| `string`
+Defined in: [api.ts:416](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L416)
 
 Complementary text to the status.
 
-**`Memberof`**
+#### Memberof
 
 CveStatusIn
-
-#### Defined in
-
-[api.ts:416](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L416)

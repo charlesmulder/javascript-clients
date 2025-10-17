@@ -1,27 +1,25 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / CvesWithoutErrataOutUpdatedCvesWithoutErrata
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / CvesWithoutErrataOutUpdatedCvesWithoutErrata
 
 # Interface: CvesWithoutErrataOutUpdatedCvesWithoutErrata
 
-**`Export`**
+Defined in: [api.ts:474](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L474)
+
+## Export
 
 CvesWithoutErrataOutUpdatedCvesWithoutErrata
-
-## Table of contents
-
-### Properties
-
-- [enabled](CvesWithoutErrataOutUpdatedCvesWithoutErrata.md#enabled)
 
 ## Properties
 
-### enabled
+### enabled?
 
-• `Optional` **enabled**: `boolean`
+> `optional` **enabled**: `boolean`
 
-**`Memberof`**
+Defined in: [api.ts:480](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L480)
+
+#### Memberof
 
 CvesWithoutErrataOutUpdatedCvesWithoutErrata
-
-#### Defined in
-
-[api.ts:480](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L480)

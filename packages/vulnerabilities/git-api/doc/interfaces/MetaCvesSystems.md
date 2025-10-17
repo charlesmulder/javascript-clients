@@ -1,403 +1,335 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / MetaCvesSystems
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / MetaCvesSystems
 
 # Interface: MetaCvesSystems
 
-**`Export`**
+Defined in: [api.ts:1659](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1659)
+
+## Export
 
 MetaCvesSystems
-
-## Table of contents
-
-### Properties
-
-- [business\_risk\_id](MetaCvesSystems.md#business_risk_id)
-- [cves\_without\_errata](MetaCvesSystems.md#cves_without_errata)
-- [cvss\_from](MetaCvesSystems.md#cvss_from)
-- [cvss\_to](MetaCvesSystems.md#cvss_to)
-- [data\_format](MetaCvesSystems.md#data_format)
-- [filter](MetaCvesSystems.md#filter)
-- [first\_reported\_from](MetaCvesSystems.md#first_reported_from)
-- [first\_reported\_to](MetaCvesSystems.md#first_reported_to)
-- [impact](MetaCvesSystems.md#impact)
-- [limit](MetaCvesSystems.md#limit)
-- [offset](MetaCvesSystems.md#offset)
-- [opt\_out](MetaCvesSystems.md#opt_out)
-- [page](MetaCvesSystems.md#page)
-- [page\_size](MetaCvesSystems.md#page_size)
-- [pages](MetaCvesSystems.md#pages)
-- [patch\_access](MetaCvesSystems.md#patch_access)
-- [permissions](MetaCvesSystems.md#permissions)
-- [public\_from](MetaCvesSystems.md#public_from)
-- [public\_to](MetaCvesSystems.md#public_to)
-- [rule\_presence](MetaCvesSystems.md#rule_presence)
-- [sort](MetaCvesSystems.md#sort)
-- [status\_id](MetaCvesSystems.md#status_id)
-- [total\_items](MetaCvesSystems.md#total_items)
 
 ## Properties
 
 ### business\_risk\_id
 
-• **business\_risk\_id**: ``null`` \| `string`
+> **business\_risk\_id**: `string` \| `null`
+
+Defined in: [api.ts:1725](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1725)
 
 Filter based on business risk IDs.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1725](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1725)
-
-___
+***
 
 ### cves\_without\_errata
 
-• **cves\_without\_errata**: ``null`` \| `boolean`
+> **cves\_without\_errata**: `boolean` \| `null`
+
+Defined in: [api.ts:1791](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1791)
 
 CVEs without Errata feature flag
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1791](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1791)
-
-___
+***
 
 ### cvss\_from
 
-• **cvss\_from**: ``null`` \| `number`
+> **cvss\_from**: `number` \| `null`
+
+Defined in: [api.ts:1731](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1731)
 
 Filter based on cvss score, starting from the value. Use -1 to include also CVEs with N/A cvss score.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1731](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1731)
-
-___
+***
 
 ### cvss\_to
 
-• **cvss\_to**: ``null`` \| `number`
+> **cvss\_to**: `number` \| `null`
+
+Defined in: [api.ts:1737](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1737)
 
 Filter based on cvss score, up to the value.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1737](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1737)
-
-___
+***
 
 ### data\_format
 
-• **data\_format**: `string`
+> **data\_format**: `string`
+
+Defined in: [api.ts:1713](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1713)
 
 Format of the output data, either JSON (default) or CSV.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1713](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1713)
-
-___
+***
 
 ### filter
 
-• **filter**: ``null`` \| `string`
+> **filter**: `string` \| `null`
+
+Defined in: [api.ts:1665](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1665)
 
 Full text filter
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1665](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1665)
-
-___
+***
 
 ### first\_reported\_from
 
-• **first\_reported\_from**: ``null`` \| `string`
+> **first\_reported\_from**: `string` \| `null`
+
+Defined in: [api.ts:1779](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1779)
 
 Filter system-cve pairs based on first time of detection of CVE.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1779](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1779)
-
-___
+***
 
 ### first\_reported\_to
 
-• **first\_reported\_to**: ``null`` \| `string`
+> **first\_reported\_to**: `string` \| `null`
+
+Defined in: [api.ts:1785](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1785)
 
 Filter system-cve pairs based on first time of detection of CVE.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1785](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1785)
-
-___
+***
 
 ### impact
 
-• **impact**: ``null`` \| `string`
+> **impact**: `string` \| `null`
+
+Defined in: [api.ts:1755](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1755)
 
 Filter based on impact IDs.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1755](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1755)
-
-___
+***
 
 ### limit
 
-• **limit**: `number`
+> **limit**: `number`
+
+Defined in: [api.ts:1671](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1671)
 
 Maximum number of paginated results.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1671](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1671)
-
-___
+***
 
 ### offset
 
-• **offset**: `number`
+> **offset**: `number`
+
+Defined in: [api.ts:1677](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1677)
 
 First record of paginated response.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1677](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1677)
-
-___
+***
 
 ### opt\_out
 
-• **opt\_out**: `boolean`
+> **opt\_out**: `boolean`
+
+Defined in: [api.ts:1797](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1797)
 
 If given system was opted out.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1797](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1797)
-
-___
+***
 
 ### page
 
-• **page**: `number`
+> **page**: `number`
+
+Defined in: [api.ts:1683](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1683)
 
 Page number of paginated response.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1683](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1683)
-
-___
+***
 
 ### page\_size
 
-• **page\_size**: `number`
+> **page\_size**: `number`
+
+Defined in: [api.ts:1689](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1689)
 
 Number of records per page of paginated response.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1689](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1689)
-
-___
+***
 
 ### pages
 
-• **pages**: `number`
+> **pages**: `number`
+
+Defined in: [api.ts:1695](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1695)
 
 Total number of pages of paginated response.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1695](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1695)
-
-___
+***
 
 ### patch\_access
 
-• **patch\_access**: ``null`` \| `boolean`
+> **patch\_access**: `boolean` \| `null`
+
+Defined in: [api.ts:1773](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1773)
 
 If show_advisories=true shows access to patch service else null
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1773](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1773)
-
-___
+***
 
 ### permissions
 
-• **permissions**: `string`[]
+> **permissions**: `string`[]
+
+Defined in: [api.ts:1719](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1719)
 
 Fetched permissions from RBAC for given user
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1719](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1719)
-
-___
+***
 
 ### public\_from
 
-• **public\_from**: ``null`` \| `string`
+> **public\_from**: `string` \| `null`
+
+Defined in: [api.ts:1743](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1743)
 
 Filter CVEs based on their published date, starting from the date.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1743](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1743)
-
-___
+***
 
 ### public\_to
 
-• **public\_to**: ``null`` \| `string`
+> **public\_to**: `string` \| `null`
+
+Defined in: [api.ts:1749](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1749)
 
 Filter CVEs based on their published date, up to the date.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1749](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1749)
-
-___
+***
 
 ### rule\_presence
 
-• **rule\_presence**: ``null`` \| `string`
+> **rule\_presence**: `string` \| `null`
+
+Defined in: [api.ts:1767](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1767)
 
 Filter based on presence of security rule
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1767](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1767)
-
-___
+***
 
 ### sort
 
-• **sort**: ``null`` \| `string`
+> **sort**: `string` \| `null`
+
+Defined in: [api.ts:1701](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1701)
 
 Sorting filter.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1701](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1701)
-
-___
+***
 
 ### status\_id
 
-• **status\_id**: ``null`` \| `string`
+> **status\_id**: `string` \| `null`
+
+Defined in: [api.ts:1761](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1761)
 
 Filer based on CVE status ID.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
 
-#### Defined in
-
-[api.ts:1761](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1761)
-
-___
+***
 
 ### total\_items
 
-• **total\_items**: `number`
+> **total\_items**: `number`
+
+Defined in: [api.ts:1707](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1707)
 
 Total number of records.
 
-**`Memberof`**
+#### Memberof
 
 MetaCvesSystems
-
-#### Defined in
-
-[api.ts:1707](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L1707)

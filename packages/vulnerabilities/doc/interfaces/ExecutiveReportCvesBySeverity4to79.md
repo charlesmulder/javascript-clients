@@ -1,46 +1,41 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / ExecutiveReportCvesBySeverity4to79
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / ExecutiveReportCvesBySeverity4to79
 
 # Interface: ExecutiveReportCvesBySeverity4to79
 
-**`Export`**
+Defined in: [api.ts:865](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L865)
+
+## Export
 
 ExecutiveReportCvesBySeverity4to79
-
-## Table of contents
-
-### Properties
-
-- [count](ExecutiveReportCvesBySeverity4to79.md#count)
-- [percentage](ExecutiveReportCvesBySeverity4to79.md#percentage)
 
 ## Properties
 
 ### count
 
-• **count**: `number`
+> **count**: `number`
+
+Defined in: [api.ts:871](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L871)
 
 Number of CVEs with CVSS score higher or equal to 4 and lower then 8.
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportCvesBySeverity4to79
 
-#### Defined in
-
-[api.ts:871](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L871)
-
-___
+***
 
 ### percentage
 
-• **percentage**: `number`
+> **percentage**: `number`
+
+Defined in: [api.ts:877](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L877)
 
 Percentage of CVEs with CVSS score higher or equal to 4 and lower then 8.
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportCvesBySeverity4to79
-
-#### Defined in
-
-[api.ts:877](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L877)

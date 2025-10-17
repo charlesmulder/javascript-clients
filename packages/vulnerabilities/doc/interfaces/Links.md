@@ -1,80 +1,69 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / Links
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / Links
 
 # Interface: Links
 
-**`Export`**
+Defined in: [api.ts:1155](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1155)
+
+## Export
 
 Links
-
-## Table of contents
-
-### Properties
-
-- [first](Links.md#first)
-- [last](Links.md#last)
-- [next](Links.md#next)
-- [previous](Links.md#previous)
 
 ## Properties
 
 ### first
 
-• **first**: `string`
+> **first**: `string`
+
+Defined in: [api.ts:1161](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1161)
 
 Link to first page.
 
-**`Memberof`**
+#### Memberof
 
 Links
 
-#### Defined in
-
-[api.ts:1161](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1161)
-
-___
+***
 
 ### last
 
-• **last**: `string`
+> **last**: `string`
+
+Defined in: [api.ts:1167](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1167)
 
 Link to last page.
 
-**`Memberof`**
+#### Memberof
 
 Links
 
-#### Defined in
-
-[api.ts:1167](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1167)
-
-___
+***
 
 ### next
 
-• **next**: ``null`` \| `string`
+> **next**: `string` \| `null`
+
+Defined in: [api.ts:1173](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1173)
 
 Link to next page.
 
-**`Memberof`**
+#### Memberof
 
 Links
 
-#### Defined in
-
-[api.ts:1173](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1173)
-
-___
+***
 
 ### previous
 
-• **previous**: ``null`` \| `string`
+> **previous**: `string` \| `null`
+
+Defined in: [api.ts:1179](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1179)
 
 Link to next page.
 
-**`Memberof`**
+#### Memberof
 
 Links
-
-#### Defined in
-
-[api.ts:1179](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1179)

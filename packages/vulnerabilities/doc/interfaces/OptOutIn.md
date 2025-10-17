@@ -1,44 +1,39 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / OptOutIn
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / OptOutIn
 
 # Interface: OptOutIn
 
-**`Export`**
+Defined in: [api.ts:2221](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2221)
+
+## Export
 
 OptOutIn
-
-## Table of contents
-
-### Properties
-
-- [inventory\_id](OptOutIn.md#inventory_id)
-- [opt\_out](OptOutIn.md#opt_out)
 
 ## Properties
 
 ### inventory\_id
 
-• **inventory\_id**: [`InventoryIdOrList`](../modules.md#inventoryidorlist)
+> **inventory\_id**: [`InventoryIdOrList`](../type-aliases/InventoryIdOrList.md)
 
-**`Memberof`**
+Defined in: [api.ts:2227](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2227)
+
+#### Memberof
 
 OptOutIn
 
-#### Defined in
-
-[api.ts:2246](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2246)
-
-___
+***
 
 ### opt\_out
 
-• **opt\_out**: `boolean`
+> **opt\_out**: `boolean`
+
+Defined in: [api.ts:2233](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2233)
 
 Opt out setting to be set.
 
-**`Memberof`**
+#### Memberof
 
 OptOutIn
-
-#### Defined in
-
-[api.ts:2252](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L2252)

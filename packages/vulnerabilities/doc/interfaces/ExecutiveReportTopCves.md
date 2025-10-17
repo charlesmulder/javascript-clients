@@ -1,148 +1,125 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / ExecutiveReportTopCves
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / ExecutiveReportTopCves
 
 # Interface: ExecutiveReportTopCves
 
-**`Export`**
+Defined in: [api.ts:978](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L978)
+
+## Export
 
 ExecutiveReportTopCves
-
-## Table of contents
-
-### Properties
-
-- [cvss2\_score](ExecutiveReportTopCves.md#cvss2_score)
-- [cvss3\_score](ExecutiveReportTopCves.md#cvss3_score)
-- [description](ExecutiveReportTopCves.md#description)
-- [known\_exploit](ExecutiveReportTopCves.md#known_exploit)
-- [rule\_presence](ExecutiveReportTopCves.md#rule_presence)
-- [security\_rule](ExecutiveReportTopCves.md#security_rule)
-- [synopsis](ExecutiveReportTopCves.md#synopsis)
-- [systems\_affected](ExecutiveReportTopCves.md#systems_affected)
 
 ## Properties
 
 ### cvss2\_score
 
-• **cvss2\_score**: ``null`` \| `string`
+> **cvss2\_score**: `string` \| `null`
+
+Defined in: [api.ts:990](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L990)
 
 String representation of cvss2 score of the CVE.
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportTopCves
 
-#### Defined in
-
-[api.ts:990](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L990)
-
-___
+***
 
 ### cvss3\_score
 
-• **cvss3\_score**: ``null`` \| `string`
+> **cvss3\_score**: `string` \| `null`
+
+Defined in: [api.ts:996](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L996)
 
 String representation of cvss3 score of the CVE.
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportTopCves
 
-#### Defined in
-
-[api.ts:996](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L996)
-
-___
+***
 
 ### description
 
-• **description**: `string`
+> **description**: `string`
+
+Defined in: [api.ts:1002](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1002)
 
 Description of the CVE.
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportTopCves
 
-#### Defined in
-
-[api.ts:1002](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1002)
-
-___
+***
 
 ### known\_exploit
 
-• **known\_exploit**: `boolean`
+> **known\_exploit**: `boolean`
+
+Defined in: [api.ts:1026](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1026)
 
 Shows whether a CVE has known exploits or not
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportTopCves
 
-#### Defined in
+***
 
-[api.ts:1026](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1026)
+### rule\_presence?
 
-___
+> `optional` **rule\_presence**: `boolean`
 
-### rule\_presence
-
-• `Optional` **rule\_presence**: `boolean`
+Defined in: [api.ts:1014](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1014)
 
 Indicator of security rule presence
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportTopCves
 
-#### Defined in
+***
 
-[api.ts:1014](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1014)
+### security\_rule?
 
-___
+> `optional` **security\_rule**: `boolean`
 
-### security\_rule
-
-• `Optional` **security\_rule**: `boolean`
+Defined in: [api.ts:1008](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1008)
 
 Indicator of security rule presence
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportTopCves
 
-#### Defined in
-
-[api.ts:1008](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1008)
-
-___
+***
 
 ### synopsis
 
-• **synopsis**: `string`
+> **synopsis**: `string`
+
+Defined in: [api.ts:984](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L984)
 
 CVE synopsis
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportTopCves
 
-#### Defined in
-
-[api.ts:984](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L984)
-
-___
+***
 
 ### systems\_affected
 
-• **systems\_affected**: `number`
+> **systems\_affected**: `number`
+
+Defined in: [api.ts:1020](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1020)
 
 Systems affected by the CVE.
 
-**`Memberof`**
+#### Memberof
 
 ExecutiveReportTopCves
-
-#### Defined in
-
-[api.ts:1020](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1020)

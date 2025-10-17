@@ -1,29 +1,27 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / CvesWithoutErrataIn
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / CvesWithoutErrataIn
 
 # Interface: CvesWithoutErrataIn
 
-**`Export`**
+Defined in: [api.ts:423](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L423)
+
+## Export
 
 CvesWithoutErrataIn
-
-## Table of contents
-
-### Properties
-
-- [enable](CvesWithoutErrataIn.md#enable)
 
 ## Properties
 
 ### enable
 
-• **enable**: `boolean`
+> **enable**: `boolean`
+
+Defined in: [api.ts:429](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L429)
 
 Enable or disable CVEs without Errata feature.
 
-**`Memberof`**
+#### Memberof
 
 CvesWithoutErrataIn
-
-#### Defined in
-
-[api.ts:429](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L429)

@@ -1,44 +1,39 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / BulkChangeOut
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / BulkChangeOut
 
 # Interface: BulkChangeOut
 
-**`Export`**
+Defined in: [api.ts:96](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L96)
+
+## Export
 
 BulkChangeOut
-
-## Table of contents
-
-### Properties
-
-- [meta](BulkChangeOut.md#meta)
-- [updated](BulkChangeOut.md#updated)
 
 ## Properties
 
-### meta
+### meta?
 
-• `Optional` **meta**: [`MetaPermissions`](MetaPermissions.md)
+> `optional` **meta**: [`MetaPermissions`](MetaPermissions.md)
 
-**`Memberof`**
+Defined in: [api.ts:108](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L108)
+
+#### Memberof
 
 BulkChangeOut
 
-#### Defined in
-
-[api.ts:108](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L108)
-
-___
+***
 
 ### updated
 
-• **updated**: `string`[]
+> **updated**: `string`[]
+
+Defined in: [api.ts:102](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L102)
 
 List of updated objects/updated object IDs.
 
-**`Memberof`**
+#### Memberof
 
 BulkChangeOut
-
-#### Defined in
-
-[api.ts:102](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L102)

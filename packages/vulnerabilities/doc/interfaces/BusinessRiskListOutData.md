@@ -1,46 +1,41 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / BusinessRiskListOutData
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / BusinessRiskListOutData
 
 # Interface: BusinessRiskListOutData
 
-**`Export`**
+Defined in: [api.ts:134](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L134)
+
+## Export
 
 BusinessRiskListOutData
-
-## Table of contents
-
-### Properties
-
-- [id](BusinessRiskListOutData.md#id)
-- [name](BusinessRiskListOutData.md#name)
 
 ## Properties
 
 ### id
 
-• **id**: `number`
+> **id**: `number`
+
+Defined in: [api.ts:140](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L140)
 
 Internal business_risk_id.
 
-**`Memberof`**
+#### Memberof
 
 BusinessRiskListOutData
 
-#### Defined in
-
-[api.ts:140](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L140)
-
-___
+***
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
+
+Defined in: [api.ts:146](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L146)
 
 Represenation of internal business_risk_id.
 
-**`Memberof`**
+#### Memberof
 
 BusinessRiskListOutData
-
-#### Defined in
-
-[api.ts:146](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L146)

@@ -219,19 +219,6 @@ export interface EndpointStatus {
 /**
  *
  * @export
- * @interface EndpointTestRequest
- */
-export interface EndpointTestRequest {
-    /**
-     *
-     * @type {any}
-     * @memberof EndpointTestRequest
-     */
-    'message': any;
-}
-/**
- *
- * @export
  * @interface EndpointType
  */
 export interface EndpointType {
@@ -353,6 +340,31 @@ export interface NotificationStatus {
 /**
  *
  * @export
+ * @interface PageNotificationHistory
+ */
+export interface PageNotificationHistory {
+    /**
+     *
+     * @type {any}
+     * @memberof PageNotificationHistory
+     */
+    'data': any;
+    /**
+     *
+     * @type {{ [key: string]: any; }}
+     * @memberof PageNotificationHistory
+     */
+    'links': { [key: string]: any; };
+    /**
+     *
+     * @type {Meta}
+     * @memberof PageNotificationHistory
+     */
+    'meta': Meta;
+}
+/**
+ *
+ * @export
  * @interface PagerDutyProperties
  */
 export interface PagerDutyProperties {
@@ -377,25 +389,6 @@ export interface PagerDutyProperties {
  * @interface PagerDutySeverity
  */
 export interface PagerDutySeverity {
-}
-/**
- *
- * @export
- * @interface RequestSystemSubscriptionProperties
- */
-export interface RequestSystemSubscriptionProperties {
-    /**
-     *
-     * @type {any}
-     * @memberof RequestSystemSubscriptionProperties
-     */
-    'only_admins': any;
-    /**
-     *
-     * @type {any}
-     * @memberof RequestSystemSubscriptionProperties
-     */
-    'group_id'?: any;
 }
 /**
  *

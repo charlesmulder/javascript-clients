@@ -1,46 +1,41 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / AnnouncementOut
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / AnnouncementOut
 
 # Interface: AnnouncementOut
 
-**`Export`**
+Defined in: [api.ts:77](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L77)
+
+## Export
 
 AnnouncementOut
-
-## Table of contents
-
-### Properties
-
-- [last\_updated](AnnouncementOut.md#last_updated)
-- [message](AnnouncementOut.md#message)
 
 ## Properties
 
 ### last\_updated
 
-• **last\_updated**: `string`
+> **last\_updated**: `string`
+
+Defined in: [api.ts:89](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L89)
 
 Datetime string.
 
-**`Memberof`**
+#### Memberof
 
 AnnouncementOut
 
-#### Defined in
-
-[api.ts:89](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L89)
-
-___
+***
 
 ### message
 
-• **message**: `string`
+> **message**: `string`
+
+Defined in: [api.ts:83](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L83)
 
 Announcement message.
 
-**`Memberof`**
+#### Memberof
 
 AnnouncementOut
-
-#### Defined in
-
-[api.ts:83](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L83)

@@ -1,97 +1,83 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / PlaybookTemplateData
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / PlaybookTemplateData
 
 # Interface: PlaybookTemplateData
 
-**`Export`**
+Defined in: [api.ts:2253](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2253)
+
+## Export
 
 PlaybookTemplateData
-
-## Table of contents
-
-### Properties
-
-- [description](PlaybookTemplateData.md#description)
-- [play](PlaybookTemplateData.md#play)
-- [reboot\_required](PlaybookTemplateData.md#reboot_required)
-- [resolution\_type](PlaybookTemplateData.md#resolution_type)
-- [version](PlaybookTemplateData.md#version)
 
 ## Properties
 
 ### description
 
-• **description**: `string`
+> **description**: `string`
+
+Defined in: [api.ts:2259](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2259)
 
 Playbook template description.
 
-**`Memberof`**
+#### Memberof
 
 PlaybookTemplateData
 
-#### Defined in
-
-[api.ts:2332](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2332)
-
-___
+***
 
 ### play
 
-• **play**: `string`
+> **play**: `string`
+
+Defined in: [api.ts:2265](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2265)
 
 Actual playbook template.
 
-**`Memberof`**
+#### Memberof
 
 PlaybookTemplateData
 
-#### Defined in
+***
 
-[api.ts:2338](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2338)
+### reboot\_required?
 
-___
+> `optional` **reboot\_required**: `boolean` \| `null`
 
-### reboot\_required
-
-• `Optional` **reboot\_required**: ``null`` \| `boolean`
+Defined in: [api.ts:2277](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2277)
 
 Indicator whter reboot is required to mitigate vulnerability.
 
-**`Memberof`**
+#### Memberof
 
 PlaybookTemplateData
 
-#### Defined in
-
-[api.ts:2350](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2350)
-
-___
+***
 
 ### resolution\_type
 
-• **resolution\_type**: `string`
+> **resolution\_type**: `string`
+
+Defined in: [api.ts:2283](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2283)
 
 Type of the resolution provided by playbook.
 
-**`Memberof`**
+#### Memberof
 
 PlaybookTemplateData
 
-#### Defined in
-
-[api.ts:2356](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2356)
-
-___
+***
 
 ### version
 
-• **version**: `string`
+> **version**: `string`
+
+Defined in: [api.ts:2271](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2271)
 
 Revision of the playbook template.
 
-**`Memberof`**
+#### Memberof
 
 PlaybookTemplateData
-
-#### Defined in
-
-[api.ts:2344](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/git-api/api.ts#L2344)

@@ -1,61 +1,53 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / CveDetailOutData
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / CveDetailOutData
 
 # Interface: CveDetailOutData
 
-**`Export`**
+Defined in: [api.ts:185](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L185)
+
+## Export
 
 CveDetailOutData
-
-## Table of contents
-
-### Properties
-
-- [attributes](CveDetailOutData.md#attributes)
-- [id](CveDetailOutData.md#id)
-- [type](CveDetailOutData.md#type)
 
 ## Properties
 
 ### attributes
 
-• **attributes**: [`CveDetailOutDataAttributes`](CveDetailOutDataAttributes.md)
+> **attributes**: [`CveDetailOutDataAttributes`](CveDetailOutDataAttributes.md)
 
-**`Memberof`**
+Defined in: [api.ts:203](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L203)
+
+#### Memberof
 
 CveDetailOutData
 
-#### Defined in
-
-[api.ts:203](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L203)
-
-___
+***
 
 ### id
 
-• **id**: `string`
+> **id**: `string`
+
+Defined in: [api.ts:191](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L191)
 
 CVE id.
 
-**`Memberof`**
+#### Memberof
 
 CveDetailOutData
 
-#### Defined in
-
-[api.ts:191](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L191)
-
-___
+***
 
 ### type
 
-• **type**: `string`
+> **type**: `string`
+
+Defined in: [api.ts:197](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L197)
 
 Type of the record.
 
-**`Memberof`**
+#### Memberof
 
 CveDetailOutData
-
-#### Defined in
-
-[api.ts:197](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L197)

@@ -1,216 +1,181 @@
-[@redhat-cloud-services/vulnerabilities-client](../README.md) / [Exports](../modules.md) / MetaSystems
+[**@redhat-cloud-services/vulnerabilities-client**](../README.md)
+
+***
+
+[@redhat-cloud-services/vulnerabilities-client](../globals.md) / MetaSystems
 
 # Interface: MetaSystems
 
-**`Export`**
+Defined in: [api.ts:1830](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1830)
+
+## Export
 
 MetaSystems
-
-## Table of contents
-
-### Properties
-
-- [data\_format](MetaSystems.md#data_format)
-- [excluded](MetaSystems.md#excluded)
-- [filter](MetaSystems.md#filter)
-- [limit](MetaSystems.md#limit)
-- [offset](MetaSystems.md#offset)
-- [page](MetaSystems.md#page)
-- [page\_size](MetaSystems.md#page_size)
-- [pages](MetaSystems.md#pages)
-- [permissions](MetaSystems.md#permissions)
-- [rhel\_version](MetaSystems.md#rhel_version)
-- [sort](MetaSystems.md#sort)
-- [total\_items](MetaSystems.md#total_items)
 
 ## Properties
 
 ### data\_format
 
-• **data\_format**: `string`
+> **data\_format**: `string`
+
+Defined in: [api.ts:1884](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1884)
 
 Format of the output data, either JSON (default) or CSV.
 
-**`Memberof`**
+#### Memberof
 
 MetaSystems
 
-#### Defined in
-
-[api.ts:1884](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1884)
-
-___
+***
 
 ### excluded
 
-• **excluded**: ``null`` \| `string`
+> **excluded**: `string` \| `null`
+
+Defined in: [api.ts:1896](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1896)
 
 Display setting of opted out systems.
 
-**`Memberof`**
+#### Memberof
 
 MetaSystems
 
-#### Defined in
-
-[api.ts:1896](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1896)
-
-___
+***
 
 ### filter
 
-• **filter**: ``null`` \| `string`
+> **filter**: `string` \| `null`
+
+Defined in: [api.ts:1836](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1836)
 
 Full text filter
 
-**`Memberof`**
+#### Memberof
 
 MetaSystems
 
-#### Defined in
-
-[api.ts:1836](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1836)
-
-___
+***
 
 ### limit
 
-• **limit**: `number`
+> **limit**: `number`
+
+Defined in: [api.ts:1842](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1842)
 
 Maximum number of paginated results.
 
-**`Memberof`**
+#### Memberof
 
 MetaSystems
 
-#### Defined in
-
-[api.ts:1842](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1842)
-
-___
+***
 
 ### offset
 
-• **offset**: `number`
+> **offset**: `number`
+
+Defined in: [api.ts:1848](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1848)
 
 First record of paginated response.
 
-**`Memberof`**
+#### Memberof
 
 MetaSystems
 
-#### Defined in
-
-[api.ts:1848](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1848)
-
-___
+***
 
 ### page
 
-• **page**: `number`
+> **page**: `number`
+
+Defined in: [api.ts:1854](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1854)
 
 Page number of paginated response.
 
-**`Memberof`**
+#### Memberof
 
 MetaSystems
 
-#### Defined in
-
-[api.ts:1854](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1854)
-
-___
+***
 
 ### page\_size
 
-• **page\_size**: `number`
+> **page\_size**: `number`
+
+Defined in: [api.ts:1860](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1860)
 
 Number of records per page of paginated response.
 
-**`Memberof`**
+#### Memberof
 
 MetaSystems
 
-#### Defined in
-
-[api.ts:1860](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1860)
-
-___
+***
 
 ### pages
 
-• **pages**: `number`
+> **pages**: `number`
+
+Defined in: [api.ts:1866](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1866)
 
 Total number of pages of paginated response.
 
-**`Memberof`**
+#### Memberof
 
 MetaSystems
 
-#### Defined in
-
-[api.ts:1866](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1866)
-
-___
+***
 
 ### permissions
 
-• **permissions**: `string`[]
+> **permissions**: `string`[]
+
+Defined in: [api.ts:1890](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1890)
 
 Fetched permissions from RBAC for given user
 
-**`Memberof`**
+#### Memberof
 
 MetaSystems
 
-#### Defined in
-
-[api.ts:1890](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1890)
-
-___
+***
 
 ### rhel\_version
 
-• **rhel\_version**: ``null`` \| `string`
+> **rhel\_version**: `string` \| `null`
+
+Defined in: [api.ts:1902](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1902)
 
 Filter base on system RHEL version.
 
-**`Memberof`**
+#### Memberof
 
 MetaSystems
 
-#### Defined in
-
-[api.ts:1902](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1902)
-
-___
+***
 
 ### sort
 
-• **sort**: ``null`` \| `string`
+> **sort**: `string` \| `null`
+
+Defined in: [api.ts:1872](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1872)
 
 Sorting filter.
 
-**`Memberof`**
+#### Memberof
 
 MetaSystems
 
-#### Defined in
-
-[api.ts:1872](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1872)
-
-___
+***
 
 ### total\_items
 
-• **total\_items**: `number`
+> **total\_items**: `number`
+
+Defined in: [api.ts:1878](https://github.com/charlesmulder/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1878)
 
 Total number of records.
 
-**`Memberof`**
+#### Memberof
 
 MetaSystems
-
-#### Defined in
-
-[api.ts:1878](https://github.com/RedHatInsights/javascript-clients/blob/main/packages/vulnerabilities/api.ts#L1878)
