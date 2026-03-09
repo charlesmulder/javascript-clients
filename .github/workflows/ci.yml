@@ -12,6 +12,7 @@ permissions:
 
 jobs:
   install:
+    if: github.repository == 'RedHatInsights/javascript-clients'
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
@@ -26,6 +27,7 @@ jobs:
       - name: Install deps
         run: npm ci
   lint:
+    if: github.repository == 'RedHatInsights/javascript-clients'
     needs: [install]
     runs-on: ubuntu-24.04
     steps:
@@ -35,6 +37,7 @@ jobs:
       - uses: './.github/actions/setup-environment'
       - uses: './.github/actions/lint'
   test:
+    if: github.repository == 'RedHatInsights/javascript-clients'
     runs-on: ubuntu-24.04
     needs: [install]
     steps:
@@ -44,6 +47,7 @@ jobs:
       - uses: './.github/actions/setup-environment'
       - uses: './.github/actions/test-unit'
   integration:
+    if: github.repository == 'RedHatInsights/javascript-clients'
     runs-on: ubuntu-24.04
     needs: [install]
     steps:
@@ -53,6 +57,7 @@ jobs:
       - uses: './.github/actions/setup-environment'
       - uses: './.github/actions/test-integration'
   build:
+    if: github.repository == 'RedHatInsights/javascript-clients'
     runs-on: ubuntu-24.04
     needs: [install]
     steps:
@@ -70,7 +75,7 @@ jobs:
   release:
     runs-on: ubuntu-24.04
     needs: [install, lint, test, build]
-    if: github.event_name != 'pull_request'
+    if: github.repository == 'RedHatInsights/javascript-clients' && github.event_name != 'pull_request'
     steps:
       - uses: actions/checkout@v4
         with:
