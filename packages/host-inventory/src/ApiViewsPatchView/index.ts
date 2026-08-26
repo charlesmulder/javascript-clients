@@ -7,25 +7,25 @@ import { Configuration } from '@redhat-cloud-services/javascript-clients-shared/
 import type { ViewOut, ViewPatch } from '../types';
 
 
-export type ApiViewsUpdateViewParams = {
+export type ApiViewsPatchViewParams = {
   /**
   * View ID.
   * @type { string }
-  * @memberof ApiViewsUpdateViewApi
+  * @memberof ApiViewsPatchViewApi
   */
   viewId: string,
   /**
   * Data with which to update the inventory view.
   * @type { ViewPatch }
-  * @memberof ApiViewsUpdateViewApi
+  * @memberof ApiViewsPatchViewApi
   */
   viewPatch: ViewPatch,
   options?: AxiosRequestConfig
 }
 
-export type ApiViewsUpdateViewReturnType = ViewOut;
+export type ApiViewsPatchViewReturnType = ViewOut;
 
-const isApiViewsUpdateViewObjectParams = (params: [ApiViewsUpdateViewParams] | unknown[]): params is [ApiViewsUpdateViewParams] => {
+const isApiViewsPatchViewObjectParams = (params: [ApiViewsPatchViewParams] | unknown[]): params is [ApiViewsPatchViewParams] => {
   const l = params.length === 1
   if(l && typeof params[0] === 'object' && !Array.isArray(params[0])) {
     return true && Object.prototype.hasOwnProperty.call(params[0], 'viewId') && Object.prototype.hasOwnProperty.call(params[0], 'viewPatch')
@@ -35,12 +35,12 @@ const isApiViewsUpdateViewObjectParams = (params: [ApiViewsUpdateViewParams] | u
 /**
 * Updates an existing inventory view\'s name, description, configuration, or sharing settings. Only the view creator can update a view. System views cannot be updated. <br /><br /> Required permissions: inventory:views:write
 * @summary Update an inventory view
-* @param {ApiViewsUpdateViewParams} config with all available params.
+* @param {ApiViewsPatchViewParams} config with all available params.
 * @param {*} [options] Override http request option.
 * @throws {RequiredError}
 */
-export const apiViewsUpdateViewParamCreator = async (sendRequest: BaseAPI["sendRequest"], ...config: ([ApiViewsUpdateViewParams] | [string, ViewPatch, AxiosRequestConfig])) => {
-    const params = isApiViewsUpdateViewObjectParams(config) ? config[0] : ['viewId', 'viewPatch', 'options'].reduce((acc, curr, index) => ({ ...acc, [curr]: config[index] }), {}) as ApiViewsUpdateViewParams;
+export const apiViewsPatchViewParamCreator = async (sendRequest: BaseAPI["sendRequest"], ...config: ([ApiViewsPatchViewParams] | [string, ViewPatch, AxiosRequestConfig])) => {
+    const params = isApiViewsPatchViewObjectParams(config) ? config[0] : ['viewId', 'viewPatch', 'options'].reduce((acc, curr, index) => ({ ...acc, [curr]: config[index] }), {}) as ApiViewsPatchViewParams;
     const { viewId, viewPatch, options = {} } = params;
     const localVarPath = `/beta/views/{view_id}`
         .replace(`{${"view_id"}}`, encodeURIComponent(String(viewId)));
@@ -71,7 +71,7 @@ export const apiViewsUpdateViewParamCreator = async (sendRequest: BaseAPI["sendR
         ]
     };
 
-    return sendRequest<ApiViewsUpdateViewReturnType>(Promise.resolve(args));
+    return sendRequest<ApiViewsPatchViewReturnType>(Promise.resolve(args));
 }
 
-export default apiViewsUpdateViewParamCreator;
+export default apiViewsPatchViewParamCreator;
