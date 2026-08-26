@@ -41,7 +41,7 @@ import {
     apiViewsDeleteView,
     apiViewsGetViewById,
     apiViewsGetViewsList,
-    apiViewsUpdateView,
+    apiViewsPatchView,
 
   } from './index';
 
@@ -86,7 +86,7 @@ const endpointList = {
     apiViewsDeleteView,
     apiViewsGetViewById,
     apiViewsGetViewsList,
-    apiViewsUpdateView,
+    apiViewsPatchView,
 
 
 };

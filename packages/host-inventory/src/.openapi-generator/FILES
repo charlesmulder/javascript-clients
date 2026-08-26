@@ -41,7 +41,7 @@ ApiViewsCreateView/index.ts
 ApiViewsDeleteView/index.ts
 ApiViewsGetViewById/index.ts
 ApiViewsGetViewsList/index.ts
-ApiViewsUpdateView/index.ts
+ApiViewsPatchView/index.ts
 api.ts
 git_push.sh
 index.ts

@@ -27,7 +27,7 @@ const isApiViewsCloneViewObjectParams = (params: [ApiViewsCloneViewParams] | unk
   return false
 }
 /**
-* Creates a copy of any visible view (including system views) as a new private view owned by the requesting user. The cloned view name is prefixed with \"Copy of \". <br /><br /> Required permissions: inventory:views:write <br /><br /> <b>NOTE:</b> This endpoint is not yet implemented and will return HTTP 501.
+* Creates a copy of any visible view (including system views) as a new private view owned by the requesting user. The cloned view name is prefixed with \"Copy of \". <br /><br /> Required permissions: inventory:views:write
 * @summary Clone an inventory view
 * @param {ApiViewsCloneViewParams} config with all available params.
 * @param {*} [options] Override http request option.

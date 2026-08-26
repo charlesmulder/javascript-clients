@@ -78,7 +78,7 @@ export { default as apiViewsGetViewById, type ApiViewsGetViewByIdReturnType } fr
 
 export { default as apiViewsGetViewsList, type ApiViewsGetViewsListReturnType } from './ApiViewsGetViewsList'
 
-export { default as apiViewsUpdateView, type ApiViewsUpdateViewReturnType } from './ApiViewsUpdateView'
+export { default as apiViewsPatchView, type ApiViewsPatchViewReturnType } from './ApiViewsPatchView'
 
 
 export * from './types'

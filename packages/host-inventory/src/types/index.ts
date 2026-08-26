@@ -580,6 +580,91 @@ export interface GroupQueryOutput {
     'results': Array<GroupOutWithHostCount>;
 }
 /**
+ * Host-level query filters that correspond to the /hosts endpoint query parameters. Stored with the view so the frontend can reconstruct the full query when loading hosts for this view.
+ * @export
+ * @interface HostFilters
+ */
+export interface HostFilters {
+    /**
+     * Display name or ID substring search.
+     * @type {string}
+     * @memberof HostFilters
+     */
+    'hostname_or_id'?: string;
+    /**
+     * Culling states to include.
+     * @type {Array<string>}
+     * @memberof HostFilters
+     */
+    'staleness'?: Array<HostFiltersStalenessEnum>;
+    /**
+     * Filter by reporting source.
+     * @type {Array<string>}
+     * @memberof HostFilters
+     */
+    'registered_with'?: Array<string>;
+    /**
+     * Tag filters in namespace/key=value format.
+     * @type {Array<string>}
+     * @memberof HostFilters
+     */
+    'tags'?: Array<string>;
+    /**
+     * Filter by workspace name.
+     * @type {Array<string>}
+     * @memberof HostFilters
+     */
+    'workspace_name'?: Array<string>;
+    /**
+     * Start of last check-in date range (ISO 8601).
+     * @type {string}
+     * @memberof HostFilters
+     */
+    'last_check_in_start'?: string;
+    /**
+     * End of last check-in date range (ISO 8601).
+     * @type {string}
+     * @memberof HostFilters
+     */
+    'last_check_in_end'?: string;
+    /**
+     * Start of last-modified date range (ISO 8601).
+     * @type {string}
+     * @memberof HostFilters
+     */
+    'updated_start'?: string;
+    /**
+     * End of last-modified date range (ISO 8601).
+     * @type {string}
+     * @memberof HostFilters
+     */
+    'updated_end'?: string;
+    /**
+     * Filter by system type.
+     * @type {Array<string>}
+     * @memberof HostFilters
+     */
+    'system_type'?: Array<HostFiltersSystemTypeEnum>;
+}
+
+export const HostFiltersStalenessEnum = {
+    Fresh: 'fresh',
+    Stale: 'stale',
+    StaleWarning: 'stale_warning',
+    Unknown: 'unknown'
+} as const;
+
+export type HostFiltersStalenessEnum = typeof HostFiltersStalenessEnum[keyof typeof HostFiltersStalenessEnum];
+export const HostFiltersSystemTypeEnum = {
+    Conventional: 'conventional',
+    Bootc: 'bootc',
+    Edge: 'edge',
+    Cluster: 'cluster'
+} as const;
+
+export type HostFiltersSystemTypeEnum = typeof HostFiltersSystemTypeEnum[keyof typeof HostFiltersSystemTypeEnum];
+
+/**
  * A single Host ID that belongs to a host.
  * @export
  * @interface HostIdOut
@@ -2243,6 +2328,30 @@ export interface SystemProfileAnsible {
      * @memberof SystemProfileAnsible
      */
     'sso_version'?: string;
+    /**
+     * The receptor version on the host
+     * @type {string}
+     * @memberof SystemProfileAnsible
+     */
+    'receptor_version'?: string;
+    /**
+     * The ansible-runner version on the host
+     * @type {string}
+     * @memberof SystemProfileAnsible
+     */
+    'runner_version'?: string;
+    /**
+     * The EDA controller version on the host
+     * @type {string}
+     * @memberof SystemProfileAnsible
+     */
+    'eda_controller_version'?: string;
+    /**
+     * The automation gateway version on the host
+     * @type {string}
+     * @memberof SystemProfileAnsible
+     */
+    'gateway_version'?: string;
 }
 /**
  * Object containing image data from command bootc status
@@ -3309,11 +3418,26 @@ export interface ViewConfiguration {
      */
     'sort'?: ViewSortConfig;
     /**
-     * Active filter criteria. Mirrors the existing filter engine shape: filter[namespace][field][operator]=value. Top-level keys are app names (e.g. vulnerability, patch) or system_profile. Values are nested objects of field -> operator -> value. Validated server-side against the field and operator registries.
-     * @type {{ [key: string]: { [key: string]: HostViewFilterComparison; }; }}
+     *
+     * @type {ViewConfigurationFilters}
      * @memberof ViewConfiguration
      */
-    'filters'?: { [key: string]: { [key: string]: HostViewFilterComparison; }; };
+    'filters'?: ViewConfigurationFilters;
+}
+/**
+ * Active filter criteria for this view. Top-level keys are filter namespaces: app names (e.g. vulnerability, patch), system_profile, or host (for host-level query parameters). Each namespace value is a nested object. system_profile filters may be deeply nested (e.g. operating_system.RHEL.version). The reserved \"host\" key holds host-level query parameters (staleness, tags, etc.) that the frontend replays as /hosts query params. Validated server-side.
+ * @export
+ * @interface ViewConfigurationFilters
+ */
+export interface ViewConfigurationFilters {
+    [key: string]: any;
+
+    /**
+     *
+     * @type {HostFilters}
+     * @memberof ViewConfigurationFilters
+     */
+    'host'?: HostFilters;
 }
 /**
  * Data required to create a new inventory view.
@@ -3322,7 +3446,7 @@ export interface ViewConfiguration {
  */
 export interface ViewIn {
     /**
-     * The display name for the view.
+     * The display name for the view. Must contain only letters, numbers, spaces, hyphens, and underscores.
      * @type {string}
      * @memberof ViewIn
      */
@@ -3426,7 +3550,7 @@ export interface ViewOut {
  */
 export interface ViewPatch {
     /**
-     * The display name for the view.
+     * The display name for the view. Must contain only letters, numbers, spaces, hyphens, and underscores.
      * @type {string}
      * @memberof ViewPatch
      */
