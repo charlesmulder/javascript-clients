@@ -1,3 +1,13 @@
+## 1.1.0 (2026-08-27)
+
+### 🚀 Features
+
+- **@redhat-cloud-services/scheduler-client:** update client ([f3e380b1](https://github.com/RedHatInsights/javascript-clients/commit/f3e380b1))
+
+### ❤️ Thank You
+
+- Justin Orringer
+
 ## 1.0.6 (2026-08-14)
 
 ### 🩹 Fixes
