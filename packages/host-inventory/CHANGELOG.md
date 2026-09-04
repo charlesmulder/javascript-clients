@@ -1,3 +1,21 @@
+## 7.1.0 (2026-09-04)
+
+### 🚀 Features
+
+- **@redhat-cloud-services/host-inventory-client:** regenerate Inventory client from latest OpenAPI spec ([#567](https://github.com/RedHatInsights/javascript-clients/pull/567))
+
+### 🩹 Fixes
+
+- **deps:** bump the production-dependencies group with 2 updates ([#568](https://github.com/RedHatInsights/javascript-clients/pull/568))
+
+### 🧱 Updated Dependencies
+
+- Updated @redhat-cloud-services/javascript-clients-shared to 2.0.16
+
+### ❤️ Thank You
+
+- Zhamilya Abikenova
+
 # 7.0.0 (2026-08-26)
 
 ### 🚀 Features

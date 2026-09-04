@@ -1,3 +1,13 @@
+## 5.0.13 (2026-09-04)
+
+### 🩹 Fixes
+
+- **deps:** bump the production-dependencies group with 2 updates ([#568](https://github.com/RedHatInsights/javascript-clients/pull/568))
+
+### 🧱 Updated Dependencies
+
+- Updated @redhat-cloud-services/javascript-clients-shared to 2.0.16
+
 ## 5.0.12 (2026-08-14)
 
 ### 🩹 Fixes

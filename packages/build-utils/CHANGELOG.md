@@ -1,3 +1,9 @@
+## 1.1.7 (2026-09-04)
+
+### 🩹 Fixes
+
+- **deps:** bump the production-dependencies group with 2 updates ([#568](https://github.com/RedHatInsights/javascript-clients/pull/568))
+
 ## 1.1.6 (2026-08-14)
 
 This was a version bump only for @redhat-cloud-services/build-utils to align it with other projects, there were no code changes.

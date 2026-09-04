@@ -1,6 +1,6 @@
 {
   "name": "@redhat-cloud-services/patch-client",
-  "version": "4.0.12",
+  "version": "4.0.13",
   "description": "",
   "main": "./index.js",
   "typings": "./index.d.ts",
