@@ -183,6 +183,7 @@ export const ApiHostViewsGetHostViewsOrderByEnum = {
     Advisorimportant: 'advisor:important',
     Advisormoderate: 'advisor:moderate',
     Advisorlow: 'advisor:low',
+    AdvisortotalSeverity: 'advisor:total_severity',
     VulnerabilitytotalCves: 'vulnerability:total_cves',
     VulnerabilitycriticalCves: 'vulnerability:critical_cves',
     VulnerabilityimportantCves: 'vulnerability:important_cves',
