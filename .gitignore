@@ -48,5 +48,9 @@ target/typescript-axios-webpack-module-federation-openapi-generator-*-tests*
 /target/*
 .hypothesis
 
+# Claude Code
 .claude/worktrees
 .claude/settings.local.json
+
+# Goose
+.goose_prompt_temp.md
